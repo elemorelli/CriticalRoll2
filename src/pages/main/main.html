@@ -1,14 +1,48 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>CriticalRoll</ion-title>
-  </ion-navbar>
+
+
+  <ion-toolbar>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>CriticalRoll</ion-title>
+    </ion-navbar>
+
+
+    <ion-buttons end>
+      <button ion-button icon-only color="royal">
+        <ion-icon name="trash"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>CriticalRoll</h3>
+  <ion-list >
+    <ion-card>
+      <ion-card-header>Card Header</ion-card-header>
+      <ion-card-content>Card Content</ion-card-content>
+    </ion-card>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <ion-card>
+      <ion-card-header>Card Header</ion-card-header>
+      <ion-card-content>Card Content</ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>Card Header</ion-card-header>
+      <ion-card-content>Card Content</ion-card-content>
+    </ion-card>
+  </ion-list>
+
+  <ion-footer>
+    <ion-toolbar>
+      <!--<ion-buttons>-->
+        <button ion-button full>
+          <ion-icon name="send"></ion-icon>
+        </button>
+      <!--</ion-buttons>-->
+    </ion-toolbar>
+  </ion-footer>
 </ion-content>
