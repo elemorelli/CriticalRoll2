@@ -1,48 +1,79 @@
 <ion-header>
-
-
-  <ion-toolbar>
-    <ion-navbar>
-      <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-      <ion-title>CriticalRoll</ion-title>
-    </ion-navbar>
-
-
-    <ion-buttons end>
-      <button ion-button icon-only color="royal">
-        <ion-icon name="trash"></ion-icon>
-      </button>
-    </ion-buttons>
-  </ion-toolbar>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>CriticalRoll</ion-title>
+  </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-list >
+  <ion-fab top right edge>
+    <button ion-fab>
+      <ion-icon name="trash"></ion-icon>
+    </button>
+  </ion-fab>
+  <!--<ion-list *ngFor="let effect of effects">-->
+  <ion-list>
     <ion-card>
-      <ion-card-header>Card Header</ion-card-header>
-      <ion-card-content>Card Content</ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>Card Header</ion-card-header>
-      <ion-card-content>Card Content</ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>Card Header</ion-card-header>
-      <ion-card-content>Card Content</ion-card-content>
+      <ion-card-header>
+        <button ion-fab mini>
+          <ion-icon name="trash"></ion-icon>
+        </button>
+        Effect name
+      </ion-card-header>
+      <ion-card-content>
+        Effect text
+      </ion-card-content>
     </ion-card>
   </ion-list>
-
-  <ion-footer>
-    <ion-toolbar>
-      <!--<ion-buttons>-->
-        <button ion-button full>
-          <ion-icon name="send"></ion-icon>
-        </button>
-      <!--</ion-buttons>-->
-    </ion-toolbar>
-  </ion-footer>
 </ion-content>
+
+<ion-footer>
+  <ion-grid>
+    <ion-row class="critical-buttons">
+      <ion-col col-3>
+        <button ion-button full color="critical">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="critical">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="critical">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="critical">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="fumble-buttons">
+      <ion-col col-3>
+        <button ion-button full color="fumble">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="fumble">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="fumble">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button ion-button full color="fumble">
+          <ion-icon block name="send"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>
