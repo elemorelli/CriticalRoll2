@@ -1,41 +1,18 @@
 import {Component} from "@angular/core";
+import {DrawnEffects} from "../../../providers/drawn-effects";
 
 @Component({
   selector: 'effects',
-  templateUrl: 'effects.html'
+  templateUrl: 'effects.html',
+  providers: [DrawnEffects]
 })
 
 export class Effects {
 
-  effects: any;
+  private effects = [];
 
-  constructor() {
+  constructor(public drawnEffects: DrawnEffects) {
 
-    this.effects = [];
-
-    this.effects.push({
-      'name': 'AAA',
-      'text': 'BBB'
-    });
-    this.effects.push({
-      'name': 'CCC',
-      'text': 'DDD'
-    });
-    this.effects.push({
-      'name': 'EEE',
-      'text': 'FFF'
-    });
-    this.effects.push({
-      'name': 'HHH',
-      'text': 'JJJ'
-    });
-    this.effects.push({
-      'name': 'HHH',
-      'text': 'JJJ'
-    });
-    this.effects.push({
-      'name': 'HHH',
-      'text': 'JJJ'
-    });
+    this.effects = this.drawnEffects.getEffects();
   }
 }
