@@ -1,0 +1,13 @@
+<ion-list *ngFor="let effect of effects">
+  <ion-card>
+    <ion-card-header>
+      <button ion-fab mini>
+        <ion-icon name="trash"></ion-icon>
+      </button>
+      {{effect.name}}
+    </ion-card-header>
+    <ion-card-content>
+      {{effect.text}}
+    </ion-card-content>
+  </ion-card>
+</ion-list>

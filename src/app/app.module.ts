@@ -3,6 +3,8 @@ import {ErrorHandler, NgModule} from '@angular/core';
 import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
 import {MyApp} from './app.component';
 import {MainPage} from '../pages/main/main';
+import {Buttons} from '../pages/main/buttons/buttons';
+import {Effects} from '../pages/main/effects/effects';
 import {HelpPage} from '../pages/help/help';
 import {GlossaryPage} from '../pages/glossary/glossary';
 import {SettingsPage} from '../pages/settings/settings';
@@ -14,6 +16,8 @@ import {SplashScreen} from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     MainPage,
+    Buttons,
+    Effects,
     HelpPage,
     GlossaryPage,
     SettingsPage,
