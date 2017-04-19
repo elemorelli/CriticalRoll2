@@ -1,21 +1,19 @@
 import {Component} from "@angular/core";
-import {CriticalSlashingEffectsService} from "../../../providers/critical-slashing-effects-service";
-import {DrawnEffects} from "../../../providers/drawn-effects";
+import {EffectsService} from "../../../providers/effects-service";
 
 @Component({
   selector: 'buttons',
   templateUrl: 'buttons.html',
-  providers: [CriticalSlashingEffectsService]
+  providers: [EffectsService]
 })
 
 export class Buttons {
 
-  constructor(public drawnEffects: DrawnEffects, public criticalSlashingEffectsService: CriticalSlashingEffectsService) {
+  constructor( public effectsService: EffectsService) {
 
   }
 
-  public drawEffect() {
-    let effect = this.criticalSlashingEffectsService.getEffect('en', 'pfrpg');
-    this.drawnEffects.push(effect);
+  public drawCriticalSlashingEffect() {
+    this.effectsService.drawCriticalSlashingEffect('en', 'pfrpg');
   }
 }

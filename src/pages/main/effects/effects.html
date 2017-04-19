@@ -1,7 +1,7 @@
 +{{effects.length}}+
 *{{effects}}*
 
-<ion-list *ngFor="let effect of effects">
+<ion-list *ngFor="let effect of effects | async">
   <ion-card>
     <ion-card-header>
       <button ion-fab mini>

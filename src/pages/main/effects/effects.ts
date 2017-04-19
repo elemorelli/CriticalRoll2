@@ -1,18 +1,26 @@
 import {Component} from "@angular/core";
-import {DrawnEffects} from "../../../providers/drawn-effects";
+import {EffectsService} from "../../../providers/effects-service";
+
 
 @Component({
   selector: 'effects',
   templateUrl: 'effects.html',
-  providers: [DrawnEffects]
+  providers: [EffectsService]
 })
 
 export class Effects {
 
-  private effects = [];
+  public effects: any;
 
-  constructor(public drawnEffects: DrawnEffects) {
-
-    this.effects = this.drawnEffects.getEffects();
+  constructor(public drawnEffects: EffectsService) {
+    this.effects = drawnEffects.getDrawnEffects();
   }
+
+  // ngOnInit() {
+  //   this.drawnEffects.getDrawnEffects().subscribe(
+  //     data => this.effects = data,
+  //     error => console.log("Error!")
+  //   );
+  // }
+
 }
