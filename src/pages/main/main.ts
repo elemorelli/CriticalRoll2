@@ -12,7 +12,8 @@ import {Effects} from "./effects/effects";
 })
 export class MainPage {
 
-  @ViewChild(Content) content: Content;
+  @ViewChild(Content)
+  content: Content;
 
   constructor(public navCtrl: NavController, public effectsService: EffectsService) {
   }

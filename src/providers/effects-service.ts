@@ -87,6 +87,6 @@ export class EffectsService {
   }
 
   clearEffects() {
-    this.drawnEffects.splice(0,this.drawnEffects.length);
+    this.drawnEffects.splice(0, this.drawnEffects.length);
   }
 }

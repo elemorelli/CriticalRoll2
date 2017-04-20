@@ -1,7 +1,6 @@
 import {Component} from "@angular/core";
 import {EffectsService} from "../../../providers/effects-service";
 
-
 @Component({
   selector: 'effects',
   templateUrl: 'effects.html'
