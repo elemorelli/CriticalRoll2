@@ -1,7 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/map";
-import {BehaviorSubject, Observable} from "rxjs";
 import {EffectModel} from "./effect-model";
 
 @Injectable()
@@ -10,9 +9,7 @@ export class EffectsService {
   private currentLanguage: string = 'en';
   private currentSystem: string = 'pfrpg';
 
-
   private drawnEffects: any = [];
-  private observableEffectsList: BehaviorSubject<EffectModel[]> = new BehaviorSubject([]);
 
   private effectsData: object = {};
   private languanges: any = ['en', 'es'];
@@ -45,17 +42,16 @@ export class EffectsService {
       });
   }
 
-  getDrawnEffects(): Observable<EffectModel[]> {
-    return this.observableEffectsList.asObservable()
+  getDrawnEffects() {
+    return this.drawnEffects;
   }
 
-  private drawEffect(language, system, type, subtype) {
+  drawEffect(language, system, type, subtype) {
     let effects = this.effectsData[language][system][type][subtype];
     let effectIndex = Math.floor(Math.random() * effects.length);
     let drawnEffect = effects[effectIndex];
     let model = new EffectModel(type, subtype, drawnEffect.title, drawnEffect.text)
     this.drawnEffects.push(model);
-    this.observableEffectsList.next(this.drawnEffects);
   }
 
   drawCriticalSlashingEffect() {
@@ -91,7 +87,6 @@ export class EffectsService {
   }
 
   clearEffects() {
-    this.drawnEffects = [];
+    this.drawnEffects.splice(0,this.drawnEffects.length);
   }
-
 }

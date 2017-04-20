@@ -3,8 +3,7 @@ import {EffectsService} from "../../../providers/effects-service";
 
 @Component({
   selector: 'buttons',
-  templateUrl: 'buttons.html',
-  providers: [EffectsService]
+  templateUrl: 'buttons.html'
 })
 
 export class Buttons {

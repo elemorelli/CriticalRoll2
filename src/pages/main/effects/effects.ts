@@ -4,8 +4,7 @@ import {EffectsService} from "../../../providers/effects-service";
 
 @Component({
   selector: 'effects',
-  templateUrl: 'effects.html',
-  providers: [EffectsService]
+  templateUrl: 'effects.html'
 })
 
 export class Effects {
@@ -15,12 +14,4 @@ export class Effects {
   constructor(public effectsService: EffectsService) {
     this.effects = effectsService.getDrawnEffects();
   }
-
-  // ngOnInit() {
-  //   this.drawnEffects.getDrawnEffects().subscribe(
-  //     data => this.effects = data,
-  //     error => console.log("Error!")
-  //   );
-  // }
-
 }
