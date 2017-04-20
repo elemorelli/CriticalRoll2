@@ -41,7 +41,6 @@ export class EffectsService {
   private loadFromJson(language: string, system: string, type: string, subtype: string) {
     this.http.get('assets/json/effects/' + language + '/' + system + '/' + type + '/' + subtype + '.json')
       .subscribe(data => {
-
         this.effectsData[language][system][type][subtype] = data.json();
       });
   }
@@ -50,14 +49,12 @@ export class EffectsService {
     return this.observableEffectsList.asObservable()
   }
 
-  clearEffects() {
-    this.drawnEffects = [];
-  }
-
   private drawEffect(language, system, type, subtype) {
     let effects = this.effectsData[language][system][type][subtype];
     let effectIndex = Math.floor(Math.random() * effects.length);
-    this.drawnEffects.push(effects[effectIndex]);
+    let drawnEffect = effects[effectIndex];
+    let model = new EffectModel(type, subtype, drawnEffect.title, drawnEffect.text)
+    this.drawnEffects.push(model);
     this.observableEffectsList.next(this.drawnEffects);
   }
 
@@ -92,4 +89,9 @@ export class EffectsService {
   drawFumbleMagicalEffect() {
     this.drawEffect(this.currentLanguage, this.currentSystem, 'fumble', 'magical');
   }
+
+  clearEffects() {
+    this.drawnEffects = [];
+  }
+
 }
