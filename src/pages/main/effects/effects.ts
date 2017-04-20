@@ -12,8 +12,8 @@ export class Effects {
 
   public effects: any;
 
-  constructor(public drawnEffects: EffectsService) {
-    this.effects = drawnEffects.getDrawnEffects();
+  constructor(public effectsService: EffectsService) {
+    this.effects = effectsService.getDrawnEffects();
   }
 
   // ngOnInit() {
