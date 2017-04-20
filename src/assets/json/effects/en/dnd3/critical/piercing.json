@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Leg wound",
+    "text": "Double damage and target's land speed is halved and can't swim for 1d4 rounds."
+  },
+  {
+    "title": "Grazing hit",
+    "text": "Normal damage and target is %STATUS-STUNNED=stunned% for 1 round."
+  },
+  {
+    "title": "Knockback",
+    "text": "Double damage and target is pushed 1d6 squares directly away."
+  },
+  {
+    "title": "Vulnerable spot",
+    "text": "Normal damage and target takes 1d4 %ABILITY-DAMAGE=ability damage% of your choice."
+  },
+  {
+    "title": "Bleeder",
+    "text": "Double damage and 1d6 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Heart shot",
+    "text": "Triple damage and 1 %ABILITY-CON=Con% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Deep wound",
+    "text": "Double damage and target is %STATUS-NAUSEATED=nauseated% for 1 round (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Ragged wound",
+    "text": "Normal damage and 1d8 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Sucking chest wound",
+    "text": "Double damage and target is %STATUS-EXHAUSTED=exhausted% (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Lodged in the Bone",
+    "text": "Double damage and 2 %STATUS-BLEED=bleed%. This bleed requires a DC 20 Heal check to stop."
+  },
+  {
+    "title": "Momentum",
+    "text": "Double damage and +2 on all your attack rolls for 1 round."
+  },
+  {
+    "title": "Pinned arm",
+    "text": "Double damage and one arm cannot move (DC 20 Str or Heal to be freed)."
+  },
+  {
+    "title": "Punctured lung",
+    "text": "Double damage and target begins to drown 3 round later. DC 20 Fort save each round to end effect."
+  },
+  {
+    "title": "Ventilated",
+    "text": "Double damage and 2d6 %NONLETHAL-DAMAGE=nonlethal damage%."
+  },
+  {
+    "title": "Hand wound",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%. -4 penalty on all rolls using that hand %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Pinhole",
+    "text": "Double damage and 1 %STATUS-BLEED=bleed%. Target takes 1 additional bleed each round %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Perfect strike",
+    "text": "Triple Damage."
+  },
+  {
+    "title": "Nerve cluster",
+    "text": "Normal damage and target is %STATUS-STUNNED=stunned% for 1d6 rounds (%SAVE-CRITICAL=Fort save% each round to act)."
+  },
+  {
+    "title": "Penetrating wound",
+    "text": "Double damage and ignore DR."
+  },
+  {
+    "title": "Kidney piercing",
+    "text": "Double damage and target %STATUS-SICKENED=sickened% for 2d4 round (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Achilles' heel",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%. Target's speeds are reduced by half %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Spinal tap",
+    "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds."
+  },
+  {
+    "title": "In a row",
+    "text": "Double damage to target and normal damage to adjacent target."
+  },
+  {
+    "title": "Blown back",
+    "text": "Double damage and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Appendicitis",
+    "text": "Double damage and target is poisoned (treat as <em>Greenblood oil</em> - Dungeon Master's Guide 297)."
+  },
+  {
+    "title": "Javelin catcher",
+    "text": "Double damage and 1d6 %STATUS-BLEED=bleed% if from ranged attack."
+  },
+  {
+    "title": "Cheek pierced",
+    "text": "Normal damage and 1d4 %STATUS-BLEED=bleed%. Target gains 50% spell failure chance for verbal spells %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Calf hole",
+    "text": "Normal damage and 1d4 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Painful poke",
+    "text": "Double damage and target can take only one move or standard action until next round."
+  },
+  {
+    "title": "Pierced",
+    "text": "Double damage and target is %STATUS-DAZED=dazed% for 1 round."
+  },
+  {
+    "title": "Tenacious wound",
+    "text": "Normal damage and 1d2 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%. Target does not heal this damage naturally."
+  },
+  {
+    "title": "Muscles severed",
+    "text": "Normal damage and 1d6 %ABILITY-DEX=Dex% and 1d6 %ABILITY-STR=Str% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Infection",
+    "text": "Double damage and target contracts <em>Filth fever</em> (%SAVE-CRITICAL=Fort negates%. Dungeon Master's Guide 292)."
+  },
+  {
+    "title": "Overreaction",
+    "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents."
+  },
+  {
+    "title": "Spun around",
+    "text": "Normal damage and target is %STATUS-FLAT-FOOTED=flat-footed% for 1 round."
+  },
+  {
+    "title": "Eye patch for you",
+    "text": "Triple damage and 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=drain%. -4 to Spot and ranged attacks %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Forearm piercing",
+    "text": "Double damage and target has 1 item disarmed."
+  },
+  {
+    "title": "Clean through",
+    "text": "Normal damage and 1d6 %STATUS-BLEED=bleed% and 1 %ABILITY-CON=Con% %ABILITY-DRAIN=drain%."
+  },
+  {
+    "title": "Surprise opening",
+    "text": "Double damage and one free attack against the target with a -5 penalty."
+  },
+  {
+    "title": "Organ scramble",
+    "text": "Double damage and 1d6 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Deep hurting",
+    "text": "Double damage and target is %STATUS-FATIGUED=fatigued%."
+  },
+  {
+    "title": "Tongue piercing",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%. Target gains 50% spell failure chance for verbal spells %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Shoulder wound",
+    "text": "Double damage and 1d2 %ABILITY-STR=Str% and %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Left reeling",
+    "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Elbow pierced",
+    "text": "Double damage and target drops 1 item being held."
+  },
+  {
+    "title": "Bicep wound",
+    "text": "Normal damage and 1d4 %ABILITY-STR=Str% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Nailed in place",
+    "text": "Double damage and target cannot move (DC 20 Str check negates)."
+  },
+  {
+    "title": "Guarded strike",
+    "text": "Double damage and +4 to your AC for 1 round."
+  },
+  {
+    "title": "Right in the ear",
+    "text": "Normal damage and 1 %ABILITY-INT=Int% %ABILITY-DAMAGE=damage% and 1 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Chipped bone",
+    "text": "Double damage and 1 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Stinger",
+    "text": "Normal damage and target is %STATUS-SICKENED=sickened% for 1d6 rounds."
+  },
+  {
+    "title": "Nicked an artery",
+    "text": "Normal damage and 2d6 %STATUS-BLEED=bleed%."
+  }
+]

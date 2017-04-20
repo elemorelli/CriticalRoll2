@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Herida en la pierna",
+    "text": "Doble da\u00f1o y la velocidad terrestre del objetivo es reducida a la mitad por 1d4 rondas."
+  },
+  {
+    "title": "Roce abrasivo",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-STUNNED=aturdido% por 1 ronda."
+  },
+  {
+    "title": "Derribo",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1d6 casillas hacia atr\u00e1s."
+  },
+  {
+    "title": "Punto vulnerable",
+    "text": "Da\u00f1o normal y el objetivo recibe 1d4 de %ABILITY-DAMAGE=da\u00f1o% a una caracter\u00edstica a tu elecci\u00f3n."
+  },
+  {
+    "title": "Sangrante",
+    "text": "Doble da\u00f1o y 1d6 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Disparo al coraz\u00f3n",
+    "text": "Triple da\u00f1o y %STATUS-BLEED=sangrado% de 1 de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Herida profunda",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-NAUSEATED=mareado% por 1 ronda (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Herida andrajosa",
+    "text": "Da\u00f1o normal y 1d8 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Herida en el pecho",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto% (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Fijado en el hueso",
+    "text": "Doble da\u00f1o y 2 de %STATUS-BLEED=sangrado%. Este sangrado requiere una tirada de curar CD 20 para detenerse."
+  },
+  {
+    "title": "Impulso",
+    "text": "Doble da\u00f1o y +2 en todas tus tiradas de ataque por 1 ronda."
+  },
+  {
+    "title": "Brazo inmovilizado",
+    "text": "Da\u00f1o normal y un brazo inm\u00f3vil (CD 20 Fue o curar para liberarse)."
+  },
+  {
+    "title": "Pulm\u00f3n perforado",
+    "text": "Doble da\u00f1o y el objetivo empieza a ahogarse 3 rondas m\u00e1s tarde. Salvaci\u00f3n de Fortaleza CD 20 cada ronda para terminar el efecto."
+  },
+  {
+    "title": "Ventilado",
+    "text": "Doble da\u00f1o y 2d6 %NONLETHAL-DAMAGE=da\u00f1o no letal%."
+  },
+  {
+    "title": "Herida en la mano",
+    "text": "Da\u00f1o normal y 1d2 de %ABILITY-DAMAGE=da\u00f1o% a %ABILITY-DEX=Des%. Penalidad de -4 en todas las tiradas usando esa mano %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Perforaci\u00f3n",
+    "text": "Doble da\u00f1o y 1 de %STATUS-BLEED=sangrado%. El objetivo sufre 1 de sangrado adicional cada ronda %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Golpe perfecto",
+    "text": "Triple da\u00f1o."
+  },
+  {
+    "title": "Secci\u00f3n nerviosa",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-STUNNED=aturdido% por 1d6 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Fortaleza% para actuar cada round)."
+  },
+  {
+    "title": "Herida penetrante",
+    "text": "Doble da\u00f1o e ignora reducci\u00f3n de da\u00f1o."
+  },
+  {
+    "title": "Ri\u00f1\u00f3n perforado",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-SICKENED=indispuesto% por 2d4 rondas (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Tal\u00f3n de Aquiles",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%. Las velocidades del objetivo son reducidas a la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Punci\u00f3n lumbar",
+    "text": "Da\u00f1o normal y -4 de penalidad en tiradas de ataque, de habilidad y de caracter\u00edsticas por 1d4 rondas."
+  },
+  {
+    "title": "Enfilado",
+    "text": "Doble da\u00f1o al objetivo y da\u00f1o normal a un objetivo adyacente."
+  },
+  {
+    "title": "Arrojado hacia atr\u00e1s",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Apendicitis",
+    "text": "Doble da\u00f1o y el objetivo est\u00e1 envenenado (tratar como <em>Aceite de sangreverde</em> - Dungeon Master's Guide 297)."
+  },
+  {
+    "title": "Im\u00e1n de jabalinas",
+    "text": "Doble da\u00f1o y 1d6 de %STATUS-BLEED=sangrado% si privino de un ataque de rango."
+  },
+  {
+    "title": "Mejilla perforada",
+    "text": "Da\u00f1o normal y 1d4 de %STATUS-BLEED=sangrado%. El objetivo gana 50% chance de fallar hechizos verbales %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Agujero en la pantorrilla",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Toque doloroso",
+    "text": "Doble da\u00f1o y el objetivo s\u00f3lo puede tomar una acci\u00f3n de movimiento o est\u00e1ndar hasta la pr\u00f3xima ronda."
+  },
+  {
+    "title": "Perforado",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-DAZED=atontado% por 1 ronda."
+  },
+  {
+    "title": "Herida tenaz",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%. El objetivo no se cura de este da\u00f1o naturalmente."
+  },
+  {
+    "title": "M\u00fasculos da\u00f1ados",
+    "text": "Da\u00f1o normal y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y 1d6 de %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Infecci\u00f3n",
+    "text": "Doble da\u00f1o y el objetivo contrae <em>Fiebre de la mugre</em> (%SAVE-CRITICAL=Fortaleza niega%. Dungeon Master's Guide 292)."
+  },
+  {
+    "title": "Reacci\u00f3n exagerada",
+    "text": "Da\u00f1o normal y el objetivo provoca ataques de oportunidad de todos los oponentes que lo amenazan."
+  },
+  {
+    "title": "Darle la vuelta",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
+  },
+  {
+    "title": "Un parche para ti",
+    "text": "Triple da\u00f1o y 1d2 %ABILITY-CON=Con% %ABILITY-DRAIN=consumidos%. -4 Avistar y a ataques de rango %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Perforaci\u00f3n del antebrazo",
+    "text": "Doble da\u00f1o y el objetivo es desarmado de 1 \u00edtem."
+  },
+  {
+    "title": "De lado a lado",
+    "text": "Da\u00f1o normal y 1d6 de %STATUS-BLEED=sangrado% y 1 de %ABILITY-CON=Con% %ABILITY-DRAIN=consumidos%."
+  },
+  {
+    "title": "Apertura sorpresa",
+    "text": "Doble da\u00f1o y un ataque gratuito contra el objetivo con una penalidad de -5."
+  },
+  {
+    "title": "Revoltijo de \u00f3rganos",
+    "text": "Doble da\u00f1o y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Herida profunda",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Perforaci\u00f3n en la lengua",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%. El objetivo sufre 50% de chance de fallar hechizos verbales %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Herida en el hombro",
+    "text": "Doble da\u00f1o y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue% y %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Tambaleo a la izquierda",
+    "text": "Doble da\u00f1o y el objetivo recibe una penalizaci\u00f3n de -2 a la CA por 1d4 rondas."
+  },
+  {
+    "title": "Codo perforado",
+    "text": "Doble da\u00f1o y el objetivo suelta 1 \u00edtem que est\u00e9 sosteniendo."
+  },
+  {
+    "title": "Herida en el b\u00edceps",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Ensartado en el lugar",
+    "text": "Doble da\u00f1o y el objetivo no se puede mover (Chequeo de Fue CD 20)."
+  },
+  {
+    "title": "Golpe en guardia",
+    "text": "Doble da\u00f1o y +4 a tu CA por 1 ronda."
+  },
+  {
+    "title": "Justo en la oreja",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-INT=Int% y 1 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Hueso astillado",
+    "text": "Doble da\u00f1o y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Aguij\u00f3n",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-SICKENED=indispuesto% por 1d6 rondas."
+  },
+  {
+    "title": "Arteria mellada",
+    "text": "Da\u00f1o normal y 2d6 de %STATUS-BLEED=sangrado%."
+  }
+]

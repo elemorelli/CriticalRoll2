@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Carve your initials",
+    "text": "Normal damage and target suffers from humiliation and may only attack you (%SAVE-CRITICAL=Wis saving throw negates%)."
+  },
+  {
+    "title": "Missing digits",
+    "text": "Normal damage and target loses 1d3 fingers and takes 1 %ABILITY-CON=Con% and %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-CRITICAL=Dex saving throw negates%)."
+  },
+  {
+    "title": "Hack and slash",
+    "text": "Double damage and all attack rolls of 19 or 20 against the target are critical hits for the next 3 rounds."
+  },
+  {
+    "title": "Stand aside",
+    "text": "Double damage and push target 5 feet in any direction."
+  },
+  {
+    "title": "Severed tendon",
+    "text": "Normal damage and 1d6 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Decapitation",
+    "text": "Double damage and death (%SAVE-CRITICAL=Dex saving throw negates%)."
+  },
+  {
+    "title": "Bewildering display",
+    "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Long gash",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%."
+  },
+  {
+    "title": "Shattered jaw",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%. Target cannot speak or bite %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Hamstring",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction% and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Brow to chin",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% and %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction%. The target has %DISADVANTAGE=disadvantage% on Perception checks and ranged attacks %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Gut slash",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%. Target cannot swallow whole."
+  },
+  {
+    "title": "Wing tear",
+    "text": "Double damage and target loses flight if it uses wings."
+  },
+  {
+    "title": "Missing ear",
+    "text": "Normal damage and 1 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em>. The target has %DISADVANTAGE=disadvantage% on Perception checks based on sound %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Wide open",
+    "text": "Normal damage and target provokes opportunity attacks from all threatening opponents."
+  },
+  {
+    "title": "We've got a bleeder",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%."
+  },
+  {
+    "title": "Throat slash",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%. Target cannot talk or breathe normally %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Parrying strike",
+    "text": "Double damage and +4 to your AC for 1 round."
+  },
+  {
+    "title": "Lean into the blow",
+    "text": "Triple damage, but you drop your weapon."
+  },
+  {
+    "title": "Flay",
+    "text": "Normal damage plus 1d6 %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Paper cut",
+    "text": "Normal damage and the target has %DISADVANTAGE=disadvantage% on attack rolls and ability checks for 1d4 rounds."
+  },
+  {
+    "title": "Severed hand",
+    "text": "Normal damage and target loses hand and takes 1d3 %ABILITY-CON=Con% and %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-CRITICAL=Dex saving throw negates%)."
+  },
+  {
+    "title": "Flat blade thwack",
+    "text": "Triple bludgeoning damage."
+  },
+  {
+    "title": "Surprise opening",
+    "text": "Double damage and one free attack against the target with %DISADVANTAGE=disadvantage%."
+  },
+  {
+    "title": "Broad swipe",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Disembowel",
+    "text": "Double damage and 1d4 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction% and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Sapping slash",
+    "text": "Double damage and target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Rupture abdominal cavity",
+    "text": "Double damage and 1 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction% and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Muscle wound",
+    "text": "Double damage and 1d2 %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Fingertipped",
+    "text": "Normal damage and 1 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%. Target cannot use one hand %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Bad parry",
+    "text": "Double damage and target has 1 item disarmed."
+  },
+  {
+    "title": "Nerve slice",
+    "text": "Double damage and target is %STATUS-INCAPACITATED=incapacitated% for 1 round."
+  },
+  {
+    "title": "Weapon strike",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's weapon."
+  },
+  {
+    "title": "Tangled",
+    "text": "Double damage and you may automatically grapple the target."
+  },
+  {
+    "title": "Momentum",
+    "text": "Double damage and +2 on all your attack rolls for 1d3 round."
+  },
+  {
+    "title": "Lip cut",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%. The next time he casts a verbal spell rolls 1d20: 1-10: the spell is lost. 11-20 the spell is cast."
+  },
+  {
+    "title": "Gory",
+    "text": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds."
+  },
+  {
+    "title": "Across the eyes",
+    "text": "Normal damage and target permanently %STATUS-BLINDED=blinded% (%SAVE-CRITICAL=Dex saving throw negates%)."
+  },
+  {
+    "title": "Ugly wound",
+    "text": "Normal damage and 1d3 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% and 1 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-CRITICAL=Con saving throw negates% Cha reduction)."
+  },
+  {
+    "title": "Knockback",
+    "text": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away."
+  },
+  {
+    "title": "Pain and simple",
+    "text": "Double damage and 1d6 extra damage."
+  },
+  {
+    "title": "Cut straps",
+    "text": "Double damage and if the target is wearing armor its speed is reduced by 10 feet until fixed (Requires Craft for 15% of the item value)."
+  },
+  {
+    "title": "Severed spine",
+    "text": "Double damage and 3d6 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction% (%SAVE-CRITICAL=Con saving throw halves%)."
+  },
+  {
+    "title": "Overhand chop",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Delayed wound",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Brow cut",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%. Target is %STATUS-BLINDED=blinded% until healed."
+  },
+  {
+    "title": "Leg swipe",
+    "text": "Double damage and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Terrible gash",
+    "text": "Double damage and 1 %ABILITY-CHA=Cha% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em>."
+  },
+  {
+    "title": "Shield cleave",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's shield."
+  },
+  {
+    "title": "Armor damage",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's armor."
+  },
+  {
+    "title": "Swing through",
+    "text": "Double damage and one free attack against an adjacent foe at the same bonus."
+  },
+  {
+    "title": "Spun around",
+    "text": "Normal damage and target is %STATUS-RESTRAINED=restrained% for 1 round."
+  }
+]

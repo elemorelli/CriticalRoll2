@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Dedos de manteca",
+    "text": "Sueltas tu arma."
+  },
+  {
+    "title": "Sin aliento",
+    "text": "S\u00f3lo puedes tomar un movimiento en el pr\u00f3ximo turno."
+  },
+  {
+    "title": "Trabado",
+    "text": "Tu arma queda trabada en una superficie cercana. Chequeo de Fue CD 15 para liberarla."
+  },
+  {
+    "title": "Con impulso",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "Resbalado",
+    "text": "Eres %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "La espada es muy pesada",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Posici\u00f3n inc\u00f3moda",
+    "text": "Sufres una penalizaci\u00f3n de -2 a la CA por 1d4 rondas."
+  },
+  {
+    "title": "Sobreextendido",
+    "text": "Provocas un ataque de oportunidad de todos los enemigos adyacentes."
+  },
+  {
+    "title": "M\u00fasculo desgarrado",
+    "text": "Sufres 1d4 puntos de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% en %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Arrojar",
+    "text": "Sueltas tu arma y aterriza 1d6 \u00D7 5 pies en una direcci\u00f3n aleatoria."
+  },
+  {
+    "title": "Hoja rota",
+    "text": "Tu arma es destruida (%SAVE-FUMBLE=Salvaci\u00f3n de Des niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas s\u00f3lo sufren 2d6 de da\u00f1o%."
+  },
+  {
+    "title": "Hoja mellada",
+    "text": "Tu arma sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%."
+  },
+  {
+    "title": "\u00a1Parada! \u00a1Esquiva! \u00a1Giro! \u00a1Estocada!",
+    "text": "Quedas %STATUS-INCAPACITATED=incapacitado% por 1 ronda."
+  },
+  {
+    "title": "Entr\u00e9galo",
+    "text": "El objetivo gana posesi\u00f3n de tu arma (%SAVE-FUMBLE=Salvaci\u00f3n de Des niega%)."
+  },
+  {
+    "title": "Choque de escudo",
+    "text": "El ataque hace %OBJECT-DAMAGE=da\u00f1o a tu escudo%."
+  },
+  {
+    "title": "Falta de aliento",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto en 2 etapas% (%SAVE-FUMBLE=Salvaci\u00f3n de Fue niega%)."
+  },
+  {
+    "title": "Abierto de par en par",
+    "text": "Quedas %STATUS-RESTRAINED=restringido% por 1 ronda."
+  },
+  {
+    "title": "Error cr\u00edtico",
+    "text": "El ataque te acierta a ti mismo y es un cr\u00edtico."
+  },
+  {
+    "title": "Tensi\u00f3n",
+    "text": "Sufres 1d4 puntos de %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Demasiadas cosas",
+    "text": "Quedas %STATUS-RESTRAINED=restringido% con tu equipo hasta que gastes una acci\u00f3n en liberarte."
+  },
+  {
+    "title": "Ataque giratorio",
+    "text": "Quedas %STATUS-POISONED=intoxicado% por 1d4 rondas."
+  },
+  {
+    "title": "Te dije que era afilado",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Pinchazo",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Fuera de balance",
+    "text": "Tienes %DISADVANTAGE=desventaja% en todos los ataques por 1 ronda."
+  },
+  {
+    "title": "Lo lamento",
+    "text": "El ataque acierta a un aliado adyacente a ti o al objetivo."
+  },
+  {
+    "title": "\u00a1Pum!",
+    "text": "Quedas %STATUS-STUNNED=aturdido% por 1 ronda (%SAVE-FUMBLE=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Falla catastr\u00f3fica",
+    "text": "Caes %STATUS-UNCONSCIOUS=inconsciente% por 1d6 rondas (%SAVE-FUMBLE=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "La punta filosa va all\u00ed",
+    "text": "Sufres 1 punto de %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Mango roto",
+    "text": "Tu arma pierde alcance. Tienes %DISADVANTAGE=desventaja% en las tiradas de ataque con esta arma hasta ser reparada (Requiere Artesan\u00eda por 20% del valor del \u00edtem)."
+  },
+  {
+    "title": "Niebla de guerra",
+    "text": "No amenazas enemigos adyacentes por 1d6 rondas."
+  },
+  {
+    "title": "A los ojos",
+    "text": "Quedas %STATUS-BLINDED=cegado% por 1 ronda."
+  },
+  {
+    "title": "Bateo",
+    "text": "Tu arma vuela 2d6 \u00D7 5 pies en una direcci\u00f3n aleatoria."
+  },
+  {
+    "title": "Mal agarre",
+    "text": "Tienes %DISADVANTAGE=desventaja% en todos tus ataques por las siguientes 3 rondas"
+  },
+  {
+    "title": "\u00bfQui\u00e9n fue?",
+    "text": "Quedas %STATUS-INCAPACITATED=incapacitado% por 1d3 rondas."
+  },
+  {
+    "title": "\u00bfQue pretend\u00edas con eso?",
+    "text": "Mueves 10 pies en una direcci\u00f3n aleatoria provocando ataques de oportunidad."
+  },
+  {
+    "title": "Come tierra",
+    "text": "Caes %STATUS-PRONE=tumbado% y eres %STATUS-BLINDED=cegado% por 1d3 rondas (%SAVE-FUMBLE=Salvaci\u00f3n de Des niega%)."
+  },
+  {
+    "title": "Dudas",
+    "text": "Quedas %STATUS-POISONED=intoxicado% por 1d6 rondas."
+  },
+  {
+    "title": "Atacar la oscuridad",
+    "text": "Todos los enemigos tienen cobertura contra ti por 1d4 rondas."
+  },
+  {
+    "title": "\u00a1Espera! \u00bfQu\u00e9?",
+    "text": "Quedas %STATUS-CONFUSED=confuso% por 1 ronda."
+  },
+  {
+    "title": "Lado incorrecto",
+    "text": "Si est\u00e1s usando un arma cortante, sufres 1d6 puntos de da\u00f1o y quedas %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Vibraci\u00f3n",
+    "text": "Si est\u00e1s usando un arma contundente, sufres 1d3 de %ABILITY-STR=Fue% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% y sueltas tu arma."
+  },
+  {
+    "title": "De ninguna manera",
+    "text": "Tu ataque acierta el objetivo, pero hace da\u00f1o m\u00ednimo."
+  },
+  {
+    "title": "H\u00famero",
+    "text": "Sueltas lo que est\u00e9s llevando en tu mano no h\u00e1bil."
+  },
+  {
+    "title": "Torcida",
+    "text": "Tienes %DISADVANTAGE=desventaja% en las tiradas de ataque con esta arma hasta ser reparada (Requiere Artesan\u00eda por 20% del valor del \u00edtem)."
+  },
+  {
+    "title": "Todo o nada",
+    "text": "Sufres una penalizaci\u00f3n de -1 en ataques hasta que asestes un golpe cr\u00edtico."
+  },
+  {
+    "title": "Rodeado por enemigos",
+    "text": "Tu ataque acierta contra un aliado en rango y es un cr\u00edtico."
+  },
+  {
+    "title": "En el extremo receptor",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "Hisopo bohemio",
+    "text": "Quedas %STATUS-DEAFENED=ensordecido% %UNTIL-HEALED=hasta ser curado% (Medicina CD 15)."
+  },
+  {
+    "title": "Es mejor dar",
+    "text": "El ataque te hace da\u00f1o a ti. Usa la fuerza del objetivo."
+  },
+  {
+    "title": "Cortante",
+    "text": "Tienes %DISADVANTAGE=desventaja% en chequeos de %ABILITY-STR=Fue% y quedas %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Esto es malo",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto en 2 etapas%."
+  },
+  {
+    "title": "Golpe de armadura",
+    "text": "El ataque le hace %OBJECT-DAMAGE=da\u00f1o a tu armadura%."
+  }
+]

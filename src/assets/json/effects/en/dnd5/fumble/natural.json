@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Tripped",
+    "text": "You are knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Bruised ego",
+    "text": "You can attack no other target for 1d4 rounds (or until the target is dead)."
+  },
+  {
+    "title": "Awkward attack",
+    "text": "You take a -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Tiring attack",
+    "text": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Upset tummy",
+    "text": "You are %STATUS-POISONED=poisoned% for 1d4 rounds."
+  },
+  {
+    "title": "I bit my tug",
+    "text": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Muscle tear",
+    "text": "You take 1d4 points of %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Stinging failure",
+    "text": "You take 1d4 points of slashing damage and a -2 penalty on attack rolls with that attack for 1d4 rounds."
+  },
+  {
+    "title": "Smash the floor",
+    "text": "You kick up dust that %STATUS-BLINDED=blinds% you for 1d4 rounds (%SAVE-FUMBLE=Dex saving throw negates%)."
+  },
+  {
+    "title": "He's sharp",
+    "text": "You take 1d6 points of damage + your Str modifier."
+  },
+  {
+    "title": "Torn muscle",
+    "text": "You take 1 point of %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em> (%SAVE-FUMBLE=Con saving throw negates%)."
+  },
+  {
+    "title": "Got too close",
+    "text": "Your attack hits the target but the target may start a grapple against you for free."
+  },
+  {
+    "title": "Off balance",
+    "text": "You can only take a move next round."
+  },
+  {
+    "title": "He bit your fist",
+    "text": "The target deals bite damage to you."
+  },
+  {
+    "title": "Fist meets face",
+    "text": "The attack hits you and is a critical hit."
+  },
+  {
+    "title": "Out of position",
+    "text": "You cannot use this attack for 1 round."
+  },
+  {
+    "title": "Wide open",
+    "text": "You are %STATUS-RESTRAINED=restrained% for 1 round."
+  },
+  {
+    "title": "Bleeding fist",
+    "text": "You are %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Twisted",
+    "text": "You become %STATUS-RESTRAINED=restrained% in your gear until you spend an action to free yourself."
+  },
+  {
+    "title": "Stop hitting yourself",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Just a taste",
+    "text": "Your attack hits an ally adjacent to you or the target."
+  },
+  {
+    "title": "Overextend",
+    "text": "You provoke an opportunity attack from all adjacent opponents."
+  },
+  {
+    "title": "Frustration",
+    "text": "You have %DISADVANTAGE=disadvantage% on all attack rolls for 1 round."
+  },
+  {
+    "title": "Broken tooth",
+    "text": "You take a -2 penalty on attack rolls for 1d6 minutes."
+  },
+  {
+    "title": "Not the weak point",
+    "text": "Your enemy's armor takes 1d6 %OBJECT-DAMAGE=points of damage%. You take 1d6 points of damage and cannot use that attack for 1d3 rounds."
+  },
+  {
+    "title": "That tastes awful!",
+    "text": "If this was a bite attack, you are %STATUS-POISONED=poisoned% for 1d6 rounds."
+  },
+  {
+    "title": "Broke a nail",
+    "text": "You take 1d4 points of damage and you cannot use this attack %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Sprain",
+    "text": "You have %DISADVANTAGE=disadvantage% on ranged attacks, %ABILITY-DEX=Dexterity% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Overexertion",
+    "text": "You are %STATUS-EXHAUSTED=exhausted by 2 stages% (%SAVE-FUMBLE=Str saving throw negates%)."
+  },
+  {
+    "title": "Don't pick at it",
+    "text": "You take 1 point of %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "We have a wiener",
+    "text": "You fall %STATUS-UNCONSCIOUS=unconscious% for 1d6 round (%SAVE-FUMBLE=Str saving throw negates%)."
+  },
+  {
+    "title": "Whiff",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Jam a finger",
+    "text": "Your target takes normal damage, you take double damage."
+  },
+  {
+    "title": "Caught your attack",
+    "text": "The target may attempt to shove (push or knock you prone) or grapple you."
+  },
+  {
+    "title": "Pins & needles",
+    "text": "You are %STATUS-POISONED=poisoned% for 1d6 rounds."
+  },
+  {
+    "title": "Great roar",
+    "text": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Medicine Check)."
+  },
+  {
+    "title": "Head, meet wall",
+    "text": "You are %STATUS-INCAPACITATED=incapacitated% for 1d3 rounds."
+  },
+  {
+    "title": "Ferocious fumble",
+    "text": "Your attack hits an ally within reach and is a critical hit."
+  },
+  {
+    "title": "Sneeze!",
+    "text": "You are %STATUS-INCAPACITATED=incapacitated% for 1 round."
+  },
+  {
+    "title": "Ingrown nail",
+    "text": "You take a -1 penalty on attack rolls until you score a critical hit."
+  },
+  {
+    "title": "Whirlwind of shame",
+    "text": "Your attack deals damage to all targets adjacent to you except the original target."
+  },
+  {
+    "title": "Battered",
+    "text": "You take a -2 penalty on ability checks and saves for 1d4 hours."
+  },
+  {
+    "title": "Winds of change",
+    "text": "You don't threaten adjacent enemies for 1d6 rounds."
+  },
+  {
+    "title": "Unintentional move",
+    "text": "Move 10 feet in a random direction provoking opportunity attacks as normal."
+  },
+  {
+    "title": "Eye strain",
+    "text": "You are %STATUS-BLINDED=blinded% for 1 round."
+  },
+  {
+    "title": "Hangnail",
+    "text": "If this was a claw attack, slam or unarmed strike, you cannot use that attack for 1d6 rounds."
+  },
+  {
+    "title": "Brutal collision",
+    "text": "Your attack hits, but you are %STATUS-STUNNED=stunned% for 2 rounds (%SAVE-FUMBLE=Str saving throw save% reduces the stun to 1 round)."
+  },
+  {
+    "title": "Pinched nerve",
+    "text": "If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds."
+  },
+  {
+    "title": "Overthink it",
+    "text": "Your target's armor and natural armor bonuses are doubled against you for 3 rounds."
+  },
+  {
+    "title": "Punctured foot",
+    "text": "You take 1d3 points of damage and your speed is halved %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Bone bruise",
+    "text": "You take 1d2 point of %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Bad headbutt",
+    "text": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Con saving throw negates%)."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Tropiezo",
+    "text": "Eres %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Ego lastimado",
+    "text": "No puedes atacar otro objetivo por 1d4 rondas (o hasta que el objetivo est\u00e9 muerto)."
+  },
+  {
+    "title": "Posici\u00f3n inc\u00f3moda",
+    "text": "Sufres una penalizaci\u00f3n de -2 a la CA por 1d4 rondas."
+  },
+  {
+    "title": "Ataque agotador",
+    "text": "Quedas %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Molestias estomacales",
+    "text": "Quedas %STATUS-SICKENED=indispuesto% por 1d4 rondas."
+  },
+  {
+    "title": "Me mod\u00ed la lendua",
+    "text": "Sufres 1 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "M\u00fasculo rasgado",
+    "text": "Sufres 1d4 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Falla punzante",
+    "text": "Sufres 1d6 puntos de %NONLETHAL-DAMAGE=da\u00f1o no letal% y una penalizaci\u00f3n de -2 en tiradas de ataque con ese ataque por 1d4 rondas."
+  },
+  {
+    "title": "Golpear el suelo",
+    "text": "Pateas polvo que te deja %STATUS-BLINDED=cegado% por 1d4 rondas (%SAVE-FUMBLE=Fortaleza niega%)."
+  },
+  {
+    "title": "Est\u00e1 afilado",
+    "text": "Sufres 1d6 puntos de da\u00f1o + tu modificador de Fue."
+  },
+  {
+    "title": "M\u00fasculo desgarrado",
+    "text": "Sufres 1 punto de %ABILITY-STR=Fue% %ABILITY-DRAIN=consumido% (%SAVE-FUMBLE=Fortaleza niega%)."
+  },
+  {
+    "title": "Demasiado cerca",
+    "text": "Tu ataque acierta al objetivo, pero el objetivo puede empezar una presa contra ti."
+  },
+  {
+    "title": "Fuera de balance",
+    "text": "S\u00f3lo puedes tomar una acci\u00f3n de movimiento en la pr\u00f3ximo ronda."
+  },
+  {
+    "title": "Mordi\u00f3 tu pu\u00f1o",
+    "text": "El objetivo te hace da\u00f1o de mordida."
+  },
+  {
+    "title": "Pu\u00f1o conoce cara",
+    "text": "El ataque te acierta a ti mismo y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica."
+  },
+  {
+    "title": "Fuera de lugar",
+    "text": "No puedes usar este ataque por 1 ronda."
+  },
+  {
+    "title": "Abierto de par en par",
+    "text": "Quedas %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
+  },
+  {
+    "title": "Pu\u00f1o sangrante",
+    "text": "Sufres 1d6 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Retorcido",
+    "text": "Quedas %STATUS-ENTANGLED=enmara\u00f1ado% con tu equipo hasta que gastes una acci\u00f3n est\u00e1ndar en liberarte."
+  },
+  {
+    "title": "Deja de golpearte",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "S\u00f3lo una degustaci\u00f3n",
+    "text": "El ataque acierta a un aliado adyacente a ti o al objetivo."
+  },
+  {
+    "title": "Sobreextendido",
+    "text": "Provocas un ataque de oportunidad de todos los enemigos adyacentes."
+  },
+  {
+    "title": "Frustraci\u00f3n",
+    "text": "Sufres una penalizaci\u00f3n de -4 en todos los ataques por 1 ronda."
+  },
+  {
+    "title": "Diente roto",
+    "text": "Sufres una penalizaci\u00f3n de -2 en ataques por 1d6 minutos."
+  },
+  {
+    "title": "No fue en el punto d\u00e9bil",
+    "text": "La armadura del enemigo sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%. Tu sufres 1d6 puntos de da\u00f1o y no puedes usar ese ataque por 1d3 rondas."
+  },
+  {
+    "title": "\u00a1Tiene un gusto horrible!",
+    "text": "Si el ataque fue una mordida, quedas %STATUS-NAUSEATED=mareado% por 1d6 rondas."
+  },
+  {
+    "title": "U\u00f1a rota",
+    "text": "Sufres 1d4 puntos de da\u00f1o y no puede usar este ataque %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Esguince",
+    "text": "Sufres 1d4 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Sobreesfuerzo",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto% (%SAVE-FUMBLE=Fortaleza niega%)."
+  },
+  {
+    "title": "Ni te molestes",
+    "text": "Sufres 1 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Tenemos un debilucho",
+    "text": "Caes %STATUS-UNCONSCIOUS=inconsciente% por 1d6 rondas (%SAVE-FUMBLE=Voluntad niega%)."
+  },
+  {
+    "title": "Bocanada",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "Dedo trabado",
+    "text": "El objetivo sufre da\u00f1o normal, tu sufres doble da\u00f1o."
+  },
+  {
+    "title": "Atrap\u00f3 tu ataque",
+    "text": "El objetivo puede intentar hacer una maniobra de derribo, embestida o arrollar sobre ti (a elecci\u00f3n del objetivo)."
+  },
+  {
+    "title": "Botones y agujas",
+    "text": "Quedas %STATUS-SICKENED=indispuesto% por 1d6 rondas."
+  },
+  {
+    "title": "Gran rugido",
+    "text": "Quedas %STATUS-DEAFENED=ensordecido% %UNTIL-HEALED=hasta ser curado% (Curar CD 15)."
+  },
+  {
+    "title": "Cabeza encuentra pared",
+    "text": "Quedas %STATUS-DAZED=atontado% por 1d3 rondas."
+  },
+  {
+    "title": "Pifia feroz",
+    "text": "Tu ataque acierta contra un aliado en rango y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica."
+  },
+  {
+    "title": "\u00a1Estornudo!",
+    "text": "Quedas %STATUS-DAZED=atontado% por una ronda."
+  },
+  {
+    "title": "U\u00f1a encarnada",
+    "text": "Sufres una penalizaci\u00f3n de -1 en ataques hasta que confirmes un golpe cr\u00edtico."
+  },
+  {
+    "title": "Remolino de verg\u00fcenza",
+    "text": "Tu ataque da\u00f1a a todos los objetivos adyacentes excepto al objetivo original."
+  },
+  {
+    "title": "Abollado",
+    "text": "Sufres -2 en chequeos de habilidad y salvaciones por 1d4 horas."
+  },
+  {
+    "title": "Vientos de cambio",
+    "text": "No amenazas durante 1d6 rondas."
+  },
+  {
+    "title": "Movimiento no intencional",
+    "text": "Mueve 10 pies en una direcci\u00f3n aleatoria provocando ataques de oportunidad."
+  },
+  {
+    "title": "Tensi\u00f3n ocular",
+    "text": "Quedas %STATUS-BLINDED=cegado% por 1 ronda."
+  },
+  {
+    "title": "Pellejo de u\u00f1a",
+    "text": "Si el ataque es de garra, golpetazo o un impacto sin arma, no puedes usar ese ataque por 1d6 rondas."
+  },
+  {
+    "title": "Colisi\u00f3n brutal",
+    "text": "Tu ataque acierta, pero quedas %STATUS-STUNNED=aturdido% por 2 rondas (%SAVE-FUMBLE=Salvaci\u00f3n de Fortaleza% para reducirlo a 1 ronda)."
+  },
+  {
+    "title": "Nervio apretado",
+    "text": "Si tienes alcance mayor a 5 pies, es reducido a 5 pies por 3 rondas."
+  },
+  {
+    "title": "Pensarlo demasiado",
+    "text": "La bonificaci\u00f3n de armadura y armadura natural de tu objetivo se duplican contra ti por 3 rondas."
+  },
+  {
+    "title": "Pie perforado",
+    "text": "Sufres 1d3 puntos de da\u00f1o y tu velocidad es reducida a la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Contunci\u00f3n \u00f3sea",
+    "text": "Sufres 1d2 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Cabezazo grave",
+    "text": "Quedas %STATUS-STUNNED=aturdido% por una ronda (%SAVE-FUMBLE=Fortaleza niega%)."
+  }
+]

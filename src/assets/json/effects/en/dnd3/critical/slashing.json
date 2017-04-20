@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Carve your initials",
+    "text": "Normal damage and target suffers from humiliation and may only attack you (%SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Missing digits",
+    "text": "Normal damage and target loses 1d3 fingers and takes 1 %ABILITY-CON=Con% and %ABILITY-STR=Str% %ABILITY-DRAIN=drain% (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Hack and slash",
+    "text": "Double damage and all critical threats against target automatically confirm for the next 3 rounds."
+  },
+  {
+    "title": "Stand aside",
+    "text": "Double damage and push target 1 square in any direction."
+  },
+  {
+    "title": "Severed tendon",
+    "text": "Normal damage and 1d6 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Decapitation",
+    "text": "Double damage and death (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Bewildering display",
+    "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Long gash",
+    "text": "Normal damage and 8 %STATUS-BLEED=bleed%. A successful Heal check cuts the bleeding in half, rather than ending it."
+  },
+  {
+    "title": "Shattered jaw",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%. Target cannot speak or bite %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Hamstring",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage% and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Brow to chin",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% and %ABILITY-CHA=Cha% %ABILITY-DAMAGE=damage%. -2 penalty on Spot and ranged attacks %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Gut slash",
+    "text": "Double damage and 1d4 %STATUS-BLEED=bleed%. Target cannot swallow whole."
+  },
+  {
+    "title": "Wing tear",
+    "text": "Double damage and target loses flight if it uses wings."
+  },
+  {
+    "title": "Missing ear",
+    "text": "Normal damage and 1 %ABILITY-CHA=Cha% %ABILITY-DRAIN=drain%. -4 penalty on Listen check %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Wide open",
+    "text": "Normal damage and target provokes attacks of opportunity from all threatening opponents."
+  },
+  {
+    "title": "We've got a bleeder",
+    "text": "Normal damage and 2d6 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Throat slash",
+    "text": "Normal damage and 2d6 %STATUS-BLEED=bleed%. Target cannot talk or breathe while bleeding."
+  },
+  {
+    "title": "Parrying strike",
+    "text": "Double damage and +4 to your AC for 1 round."
+  },
+  {
+    "title": "Lean into the blow",
+    "text": "Triple damage, but you drop your weapon."
+  },
+  {
+    "title": "Flay",
+    "text": "Normal damage plus 1d6 %ABILITY-STR=Str% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Paper cut",
+    "text": "Normal damage and -4 penalty on attack rolls, skill checks and ability checks for 1d4 rounds."
+  },
+  {
+    "title": "Severed hand",
+    "text": "Normal damage and target loses hand and takes 1d3 %ABILITY-CON=Con% and %ABILITY-STR=Str% %ABILITY-DRAIN=drain% (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Flat blade thwack",
+    "text": "Triple damage but all %NONLETHAL-DAMAGE=damage is nonlethal%."
+  },
+  {
+    "title": "Surprise opening",
+    "text": "Double damage and one free attack against the target with a -5 penalty."
+  },
+  {
+    "title": "Broad swipe",
+    "text": "Normal damage and 1d8 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Disembowel",
+    "text": "Double damage and 1d4 %ABILITY-CON=Con% %ABILITY-DAMAGE=damage% and 1d6 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Sapping slash",
+    "text": "Double damage and target is %STATUS-FATIGUED=fatigued%."
+  },
+  {
+    "title": "Rupture abdominal cavity",
+    "text": "Double damage and 1 %ABILITY-CON=Con% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Muscle wound",
+    "text": "Double damage and 1d2 %ABILITY-STR=Str% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Fingertipped",
+    "text": "Normal damage and 1 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%. Target cannot use one hand %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Bad parry",
+    "text": "Double damage and target has 1 item disarmed."
+  },
+  {
+    "title": "Nerve slice",
+    "text": "Double damage and target can take only one move or standard action next round."
+  },
+  {
+    "title": "Weapon strike",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's weapon."
+  },
+  {
+    "title": "Tangled",
+    "text": "Double damage and you may automatically grapple the target."
+  },
+  {
+    "title": "Momentum",
+    "text": "Double damage and +2 on all your attack rolls for 1 round."
+  },
+  {
+    "title": "Lip cut",
+    "text": "Double damage and 1 %STATUS-BLEED=bleed%. Target gains 20% spell failure chance for verbal spells %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Gory",
+    "text": "Normal damage and target is %STATUS-SICKENED=sickened% for 1d6 rounds."
+  },
+  {
+    "title": "Across the eyes",
+    "text": "Normal damage and target permanently %STATUS-BLINDED=blinded% (%SAVE-CRITICAL=Ref negates%)."
+  },
+  {
+    "title": "Ugly wound",
+    "text": "Normal damage and 1d3 %ABILITY-CHA=Cha% %ABILITY-DAMAGE=damage% and 1 %ABILITY-CHA=Cha% %ABILITY-DRAIN=drain% (%SAVE-CRITICAL=Fort negates% drain)."
+  },
+  {
+    "title": "Knockback",
+    "text": "Double damage and target is pushed 1d6 squares directly away."
+  },
+  {
+    "title": "Pain and simple",
+    "text": "Double damage and 2d6 %NONLETHAL-DAMAGE=nonlethal damage%."
+  },
+  {
+    "title": "Cut straps",
+    "text": "Double damage and double armor check penalty until fixed (DC 15 Craft)."
+  },
+  {
+    "title": "Severed spine",
+    "text": "Double damage and 3d6 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage% (%SAVE-CRITICAL=Fort halves%)."
+  },
+  {
+    "title": "Overhand chop",
+    "text": "Double damage and 1d4 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Delayed wound",
+    "text": "Normal damage and target takes %STATUS-BLEED=bleed% damage equal to your normal damage."
+  },
+  {
+    "title": "Brow cut",
+    "text": "Normal damage and 1d4 %STATUS-BLEED=bleed%. Target %STATUS-BLINDED=blinded% while bleeding."
+  },
+  {
+    "title": "Leg swipe",
+    "text": "Double damage and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Terrible gash",
+    "text": "Double damage and 1 %ABILITY-CHA=Cha% %ABILITY-DRAIN=drain%."
+  },
+  {
+    "title": "Shield cleave",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's shield."
+  },
+  {
+    "title": "Armor damage",
+    "text": "Double damage and %OBJECT-DAMAGE=normal damage% to target's armor."
+  },
+  {
+    "title": "Swing through",
+    "text": "Double damage and one free attack against an adjacent foe at the same bonus."
+  },
+  {
+    "title": "Spun around",
+    "text": "Normal damage and target is %STATUS-FLAT-FOOTED=flat-footed% for 1 round."
+  }
+]

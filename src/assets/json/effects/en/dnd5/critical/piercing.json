@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Leg wound",
+    "text": "Double damage, the target's land speed is halved and can't swim for 1d4 rounds."
+  },
+  {
+    "title": "Grazing hit",
+    "text": "Normal damage and target is %STATUS-STUNNED=stunned% for 1 round."
+  },
+  {
+    "title": "Knockback",
+    "text": "Double damage and target is pushed 1d6 \u00D7 5 feet directly away."
+  },
+  {
+    "title": "Vulnerable spot",
+    "text": "Normal damage and target takes 1d4 %ABILITY-REDUCTION=ability reduction% of your choice."
+  },
+  {
+    "title": "Bleeder",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Heart shot",
+    "text": "Triple damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Deep wound",
+    "text": "Double damage and target is %STATUS-POISONED=poisoned% for 1 minute (%SAVE-CRITICAL=Con saving throw negates%)."
+  },
+  {
+    "title": "Ragged wound",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%."
+  },
+  {
+    "title": "Sucking chest wound",
+    "text": "Double damage and target is %STATUS-EXHAUSTED=exhausted by 2 stages% (%SAVE-CRITICAL=Con saving throw negates%)."
+  },
+  {
+    "title": "Lodged in the Bone",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Momentum",
+    "text": "Double damage and +2 on all your attack rolls for 1 round."
+  },
+  {
+    "title": "Pinned arm",
+    "text": "Double damage and one arm cannot move (DC 15 Str or Medicine to be freed)."
+  },
+  {
+    "title": "Punctured lung",
+    "text": "Double damage and target begins to drown 3 round later. DC 15 Con saving throw save each round to end effect."
+  },
+  {
+    "title": "Ventilated",
+    "text": "Double damage and 1d6 bludgeoning damage."
+  },
+  {
+    "title": "Hand wound",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%. The target has %DISADVANTAGE=disadvantage% on all rolls using that hand %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Pinhole",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 2 stages%."
+  },
+  {
+    "title": "Perfect strike",
+    "text": "Triple Damage."
+  },
+  {
+    "title": "Nerve cluster",
+    "text": "Normal damage and target is %STATUS-STUNNED=stunned% for 1d6 rounds (%SAVE-CRITICAL=Str saving throw save% each round to act)."
+  },
+  {
+    "title": "Penetrating wound",
+    "text": "Double damage and ignore damage resistance against bludgeoning, piercing and slashing."
+  },
+  {
+    "title": "Kidney piercing",
+    "text": "Double damage and target %STATUS-POISONED=poisoned% for 2d4 round (%SAVE-CRITICAL=Con saving throw negates%)."
+  },
+  {
+    "title": "Achilles' heel",
+    "text": "Normal damage and 1d2 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%. Target's speeds are reduced by half %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Spinal tap",
+    "text": "Normal damage and the target has %DISADVANTAGE=disadvantage% on attack rolls, saves and ability checks for 1d4 rounds."
+  },
+  {
+    "title": "In a row",
+    "text": "Double damage to target and normal damage to adjacent target."
+  },
+  {
+    "title": "Blown back",
+    "text": "Double damage and target is knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Appendicitis",
+    "text": "Double damage and target is poisoned (treat as <em>Oil of Taggit</em> - SRD 209)."
+  },
+  {
+    "title": "Javelin catcher",
+    "text": "Double damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage% if it was from ranged attack."
+  },
+  {
+    "title": "Cheek pierced",
+    "text": "Normal damage and the target is %STATUS-EXHAUSTED=exhausted by 1 stage%. For the next 1d4 rounds, when casts a verbal spell rolls 1d20: 1-10: the spell is lost. 11-20 the spell is cast."
+  },
+  {
+    "title": "Calf hole",
+    "text": "Normal damage and 1d4 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Painful poke",
+    "text": "Double damage, the target can't take reactions and can only perform an action or a move in the next round."
+  },
+  {
+    "title": "Pierced",
+    "text": "Double damage and target is %STATUS-INCAPACITATED=incapacitated% for 1 round."
+  },
+  {
+    "title": "Tenacious wound",
+    "text": "Normal damage and 1d2 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%. Target does not heal this damage naturally."
+  },
+  {
+    "title": "Muscles severed",
+    "text": "Normal damage and 1d6 %ABILITY-DEX=Dex% and 1d6 %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Infection",
+    "text": "Double damage and target contracts <em>Sewer Plague</em> (%SAVE-CRITICAL=Con saving throw negates%. SRD 204)."
+  },
+  {
+    "title": "Overreaction",
+    "text": "Normal damage and target provokes opportunity attacks from all threatening opponents."
+  },
+  {
+    "title": "Spun around",
+    "text": "Normal damage and target is %STATUS-RESTRAINED=restrained% for 1 round."
+  },
+  {
+    "title": "Eye patch for you",
+    "text": "Triple damage and 1d2 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em>. The target has %DISADVANTAGE=disadvantage% on Perception and ranged attacks %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Forearm piercing",
+    "text": "Double damage and target has 1 item disarmed."
+  },
+  {
+    "title": "Clean through",
+    "text": "Normal damage, the target is %STATUS-EXHAUSTED=exhausted by 1 stage% and 1 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction% that only be healed with <em>Greater Restoration</em>."
+  },
+  {
+    "title": "Surprise opening",
+    "text": "Double damage and one free attack against the target with %DISADVANTAGE=disadvantage%."
+  },
+  {
+    "title": "Organ scramble",
+    "text": "Double damage and 1d6 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Deep hurting",
+    "text": "Double damage and target is %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Tongue piercing",
+    "text": "Normal damage and 1 %ABILITY-CON=Con% %ABILITY-REDUCTION=ability reduction%. The next time he casts a verbal spell rolls 1d20: 1-10: the spell is lost. 11-20 the spell is cast."
+  },
+  {
+    "title": "Shoulder wound",
+    "text": "Double damage and 1d2 %ABILITY-STR=Str% and %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Left reeling",
+    "text": "Double damage and target takes a -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Elbow pierced",
+    "text": "Double damage and target drops 1 item being held."
+  },
+  {
+    "title": "Bicep wound",
+    "text": "Normal damage and 1d4 %ABILITY-STR=Str% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Nailed in place",
+    "text": "Double damage and target cannot move (DC 15 Str check negates)."
+  },
+  {
+    "title": "Guarded strike",
+    "text": "Double damage and +2 to your AC for 1 round."
+  },
+  {
+    "title": "Right in the ear",
+    "text": "Normal damage, the target has %DISADVANTAGE=disadvantage% on %ABILITY-INT=Intelligence% checks and are %STATUS-EXHAUSTED=exhausted by 1 stage%."
+  },
+  {
+    "title": "Chipped bone",
+    "text": "Double damage and 1 %ABILITY-DEX=Dex% %ABILITY-REDUCTION=ability reduction%."
+  },
+  {
+    "title": "Stinger",
+    "text": "Normal damage and target is %STATUS-POISONED=poisoned% for 1d6 rounds."
+  },
+  {
+    "title": "Nicked an artery",
+    "text": "Normal damage and 1d4 %ABILITY-DEX=Con% %ABILITY-REDUCTION=ability reduction%."
+  }
+]

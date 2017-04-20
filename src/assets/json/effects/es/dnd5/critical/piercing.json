@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Herida en la pierna",
+    "text": "Doble da\u00f1o, la velocidad terrestre del objetivo es reducida a la mitad y no puede nadar por 1d4 rondas."
+  },
+  {
+    "title": "Roce abrasivo",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-STUNNED=aturdido% por 1 ronda."
+  },
+  {
+    "title": "Derribo",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1d6 \u00D7 5 pies hacia atr\u00e1s."
+  },
+  {
+    "title": "Punto vulnerable",
+    "text": "Da\u00f1o normal y el objetivo recibe 1d4 de %ABILITY-REDUCTION=reducci\u00f3n a una caracter\u00edstica% a tu elecci\u00f3n."
+  },
+  {
+    "title": "Sangrante",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Disparo al coraz\u00f3n",
+    "text": "Triple da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%"
+  },
+  {
+    "title": "Herida profunda",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-POISONED=intoxicado% por 1 ronda (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Herida andrajosa",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-EXHAUSTED=exhausto en 2 etapas%."
+  },
+  {
+    "title": "Herida en el pecho",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 2 etapas% (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Fijado en el hueso",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Impulso",
+    "text": "Doble da\u00f1o y +2 en todas tus tiradas de ataque por 1 ronda."
+  },
+  {
+    "title": "Brazo inmovilizado",
+    "text": "Da\u00f1o normal y un brazo inm\u00f3vil (CD 15 Fue o Medicina para liberarse)."
+  },
+  {
+    "title": "Pulm\u00f3n perforado",
+    "text": "Doble da\u00f1o y el objetivo empieza a ahogarse 3 rondas m\u00e1s tarde. Salvaci\u00f3n de DC 15 cada ronda para terminar el efecto."
+  },
+  {
+    "title": "Ventilado",
+    "text": "Doble da\u00f1o y 1d6 de da\u00f1o contundente."
+  },
+  {
+    "title": "Herida en la mano",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%. El objetivo tiene %DISADVANTAGE=desventaja% en todas las tiradas usando esa mano %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Perforaci\u00f3n",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 2 etapas%."
+  },
+  {
+    "title": "Golpe perfecto",
+    "text": "Triple da\u00f1o."
+  },
+  {
+    "title": "Secci\u00f3n nerviosa",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-STUNNED=aturdido% por 1d6 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Fue% cada ronda para actuar)."
+  },
+  {
+    "title": "Herida penetrante",
+    "text": "Doble da\u00f1o e ignora reducci\u00f3n de da\u00f1o."
+  },
+  {
+    "title": "Ri\u00f1\u00f3n perforado",
+    "text": "Doble da\u00f1o y el objetivo %STATUS-POISONED=intoxicado% por 2d4 ronda (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Tal\u00f3n de Aquiles",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%. las velocidades del objetivo son reducidas por la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Punci\u00f3n lumbar",
+    "text": "Da\u00f1o normal y el objetivo tiene %DISADVANTAGE=desventaja% en tiradas de ataque, de habilidad y de caracter\u00edsticas por 1d4 rondas."
+  },
+  {
+    "title": "Enfilado",
+    "text": "Doble da\u00f1o al objetivo y da\u00f1o normal a un objetivo adyacente."
+  },
+  {
+    "title": "Arrojado hacia atr\u00e1s",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Apendicitis",
+    "text": "Doble da\u00f1o y el objetivo es intoxicado (Tratar como <em>Aceite de Taggit</em> - SRD 209)."
+  },
+  {
+    "title": "Im\u00e1n de jabalinas",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa% si provino de un ataque de rango."
+  },
+  {
+    "title": "Mejilla perforada",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%. Por las siguientes 1d4 rondas, cuando el objetivo lance un hechizo verbal debe tirar 1d20: 1-10: El hechizo se pierde. 11-20: El hechizo es lanzado."
+  },
+  {
+    "title": "Agujero en la pantorrilla",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Toque doloroso",
+    "text": "Doble da\u00f1o y el objetivo s\u00f3lo puede tomar una acci\u00f3n o movimiento hasta la pr\u00f3xima ronda."
+  },
+  {
+    "title": "Perforado",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-INCAPACITATED=incapacitado% por 1 ronda."
+  },
+  {
+    "title": "Herida tenaz",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%. El objetivo no se cura de este da\u00f1o naturalmente."
+  },
+  {
+    "title": "M\u00fasculos da\u00f1ados",
+    "text": "Da\u00f1o normal y 1d6 %ABILITY-DEX=Des% y 1d6 %ABILITY-STR=Fue% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Infecci\u00f3n",
+    "text": "Doble da\u00f1o y el objetivo contrae <em>Fiebre de la mugre</em> (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%. SRD 204)."
+  },
+  {
+    "title": "Reacci\u00f3n exagerada",
+    "text": "Da\u00f1o normal y el objetivo provoca ataques de oportunidad de todos los oponentes que lo amenazan."
+  },
+  {
+    "title": "Darle la vuelta",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-RESTRAINED=restringido% por 1 ronda."
+  },
+  {
+    "title": "Un parche para ti",
+    "text": "Triple damage y 1d2 %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% que s\u00f3lo puede ser curado con <em>Restauraci\u00f3n mayor</em>. El objetivo tiene deventaja en Percepci\u00f3n y ataques de rango %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Perforaci\u00f3n del antebrazo",
+    "text": "Doble da\u00f1o y el objetivo es desarmado de 1 \u00edtem."
+  },
+  {
+    "title": "De lado a lado",
+    "text": "Da\u00f1o normal, el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa% y sufre 1 %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% que s\u00f3lo puede ser curado con <em>Restauraci\u00f3n mayor</em>."
+  },
+  {
+    "title": "Apertura sorpresa",
+    "text": "Doble da\u00f1o y un ataque gratuito contra el objetivo con %DISADVANTAGE=desventaja%."
+  },
+  {
+    "title": "Revoltijo de \u00f3rganos",
+    "text": "Doble da\u00f1o y 1d6 %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Herida profunda",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Perforaci\u00f3n en la lengua",
+    "text": "Da\u00f1o normal y 1 %ABILITY-CON=Con% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%. %UNTIL-HEALED=Hasta ser curado%, cuando el objetivo lance un hechizo verbal debe tirar 1d20: 1-10: El hechizo se pierde. 11-20: El hechizo es lanzado."
+  },
+  {
+    "title": "Herida en el hombro",
+    "text": "Doble da\u00f1o y 1d2 %ABILITY-STR=Fue% y %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Tambaleo a la izquierda",
+    "text": "Doble da\u00f1o y el objetivo recibe una penalizaci\u00f3n de -2 a la CA por 1d4 rondas."
+  },
+  {
+    "title": "Codo perforado",
+    "text": "Doble da\u00f1o y el objetivo suelta 1 \u00edtem que est\u00e9 sosteniendo."
+  },
+  {
+    "title": "Herida en el b\u00edceps",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-STR=Fue% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Ensartado en el lugar",
+    "text": "Doble da\u00f1o y el objetivo no se puede mover (Chequeo de Fue CD 15)."
+  },
+  {
+    "title": "Golpe en guardia",
+    "text": "Doble da\u00f1o y +2 a tu CA por 1 ronda."
+  },
+  {
+    "title": "Justo en la oreja",
+    "text": "Da\u00f1o normal, el objetivo tiene %DISADVANTAGE=desventaja% en chequeos de %ABILITY-INT=Inteligencia% y queda %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Hueso astillado",
+    "text": "Doble da\u00f1o y 1 %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Aguij\u00f3n",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-POISONED=intoxicado% por 1d6 rondas."
+  },
+  {
+    "title": "Arteria mellada",
+    "text": "Da\u00f1o normal y 1d4 de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% en %ABILITY-DEX=Des%."
+  }
+]

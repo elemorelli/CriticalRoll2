@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Wild magic",
+    "text": "Roll twice on the %DESCRIPTION-ROD-OF-WONDER=Rod of Wonder% table."
+  },
+  {
+    "title": "Magic fatigue",
+    "text": "You cannot cast any spells for 1 round."
+  },
+  {
+    "title": "You made him stronger",
+    "text": "The target gains a +8 enhancement bonus to %ABILITY-STR=Str% for 1d4 rounds."
+  },
+  {
+    "title": "Clatto verata necktie",
+    "text": "Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "Hit by the ugly forest",
+    "text": "You take 1 point of %ABILITY-CHA=Cha% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "The magic is gone",
+    "text": "You take a -4 penalty to attack rolls until you score a critical hit."
+  },
+  {
+    "title": "Can you hear me now?",
+    "text": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Heal check)."
+  },
+  {
+    "title": "Error!",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Why me?",
+    "text": "You provoke an attack of opportunity from all threatening foes."
+  },
+  {
+    "title": "Left reeling",
+    "text": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Nothing to fear",
+    "text": "You are %STATUS-SHAKEN=shaken% for 2d4 rounds."
+  },
+  {
+    "title": "Bleeding eyes",
+    "text": "You are %STATUS-BLINDED=blinded% for 1d4 rounds and take 1d6 points of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Acidic backlash",
+    "text": "You take 2d6 points of acid damage."
+  },
+  {
+    "title": "Backblast",
+    "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "Arcane fire",
+    "text": "You take 2d6 points of fire damage."
+  },
+  {
+    "title": "Electrical feedback",
+    "text": "You take 2d6 points of electricity damage."
+  },
+  {
+    "title": "Cursed",
+    "text": "You take a -4 penalty on attack rolls, saves, skill checks and ability checks. This effect can only be cured with <em>Remove curse</em>."
+  },
+  {
+    "title": "You made him faster",
+    "text": "The target is <em>Hasted</em> for 1d4 rounds."
+  },
+  {
+    "title": "You made him tougher",
+    "text": "The target gains DR 5/- for 1d4 rounds."
+  },
+  {
+    "title": "Vertigo",
+    "text": "You are %STATUS-SICKENED=sickened% for 1d4 rounds."
+  },
+  {
+    "title": "Apprentice move",
+    "text": "Reroll attack against creature nearest the target (yourself excluded)."
+  },
+  {
+    "title": "Not me, you fool!",
+    "text": "Your attack hits your ally closest to the target."
+  },
+  {
+    "title": "Tiring spell",
+    "text": "You are %STATUS-FATIGUED=fatigued%."
+  },
+  {
+    "title": "Tangled",
+    "text": "You become %STATUS-ENTANGLED=entangled% in your gear until you spend a standard action to free yourself."
+  },
+  {
+    "title": "Nose bleed",
+    "text": "You take 1 point of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Weakened",
+    "text": "You take a -2 penalty to all your Spell DCs for 1d4 minutes."
+  },
+  {
+    "title": "Poor trade",
+    "text": "The attack hits your intended target but you must lose a spell or slot of the highest available level (your choice)."
+  },
+  {
+    "title": "Distance rift",
+    "text": "You are teleported the nearest square adjacent to the target."
+  },
+  {
+    "title": "Mind drain",
+    "text": "You take 1d4 points of %ABILITY-DAMAGE=damage% to %ABILITY-INT=Int%, %ABILITY-WIS=Wis%, or %ABILITY-CHA=Cha% (determined randomly)."
+  },
+  {
+    "title": "Cold snap",
+    "text": "You take 2d6 points of cold damage."
+  },
+  {
+    "title": "Caster's block",
+    "text": "You cannot cast this spell for 24 hour."
+  },
+  {
+    "title": "You made him bigger",
+    "text": "Target increases one size category for 1d4 rounds."
+  },
+  {
+    "title": "Weak-minded fool",
+    "text": "You take 1 point of %ABILITY-WIS=Wis% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Power down",
+    "text": "You take 1 point of %ABILITY-INT=Int% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Mental slip",
+    "text": "On his next turn, your target may give you one <em>Suggestion</em>."
+  },
+  {
+    "title": "Power transfer",
+    "text": "The highest level spell effect on you is transferred to your target."
+  },
+  {
+    "title": "Magical vacuum",
+    "text": "1d3 spell effects active on you are dispelled (determined randomly)."
+  },
+  {
+    "title": "Blastoff",
+    "text": "You are thrown 1d6 \u00D7 10 feet into the air (or in a random direction if flying) (%SAVE-FUMBLE=Will negates%)."
+  },
+  {
+    "title": "It's sparkly",
+    "text": "You are %STATUS-BLINDED=blinded% for 1 round."
+  },
+  {
+    "title": "Now I see you!",
+    "text": "Your target becomes %STATUS-INVISIBLE=invisible% for 1d4 rounds."
+  },
+  {
+    "title": "Unexpected blast",
+    "text": "The spell affects all targets within 30 feet of you. You are immune to this effect."
+  },
+  {
+    "title": "Jumbled components",
+    "text": "You can only take a move action next round."
+  },
+  {
+    "title": "Spell shield",
+    "text": "The target gains SR equal to 11 + your caster level for 1d6 rounds."
+  },
+  {
+    "title": "Side effect",
+    "text": "One of your magic items permanently gains a %DESCRIPTION-ITEM-DRAWBACKS=random drawback%."
+  },
+  {
+    "title": "This is hard",
+    "text": "You take 1 point of %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Magical smackdown",
+    "text": "You automatically fail your next saving throw."
+  },
+  {
+    "title": "Reflection",
+    "text": "The spell hits you instead of the target (normal saves apply)."
+  },
+  {
+    "title": "Monster rift",
+    "text": "Your spell is converted to a <em>Summon monster</em> spell of the same level. The monster attacks you."
+  },
+  {
+    "title": "Fragmented magic",
+    "text": "1d4+2 <em>Mirror images</em> spring up around your target. These images last for 1 minute or until destroyed."
+  },
+  {
+    "title": "How did that happen?",
+    "text": "A <em>Stinking cloud</em> appears, centered on you."
+  },
+  {
+    "title": "Energy transfer",
+    "text": "Lose one randomly determined spell or spell slot. Your target can cast this spell next round."
+  },
+  {
+    "title": "Power drain",
+    "text": "You lose one prepared spell or spell slot (determined randomly)."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Time vortex",
+    "text": "Normal damage and target vanishes, reappearing 1d4 rounds later."
+  },
+  {
+    "title": "Maximum effect",
+    "text": "Maximize all spell variables."
+  },
+  {
+    "title": "Draining spell",
+    "text": "Double damage and target randomly loses one spell or one use of a spell-like ability."
+  },
+  {
+    "title": "Wild surge",
+    "text": "Normal damage and normal damage of a random energy type."
+  },
+  {
+    "title": "Excruciating",
+    "text": "Normal damage and target is %STATUS-SICKENED=sickened% for 1d6 rounds."
+  },
+  {
+    "title": "Terrifying display",
+    "text": "Normal damage and target %STATUS-FRIGHTENED=frightened% for 1d4 rounds (%SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Dispelling aura",
+    "text": "Normal damage and dispel magic on the target."
+  },
+  {
+    "title": "Concussive spell",
+    "text": "Double damage and 1d4 %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Knockback",
+    "text": "Double damage and target is pushed 1d6 squares directly away."
+  },
+  {
+    "title": "I love you, man",
+    "text": "Normal damage and target is <em>Charmed</em> for 3 rounds (%SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Electrocuted",
+    "text": "Double damage. If the spell does electricity damage, target %STATUS-STUNNED=stunned% for 1d4 rounds."
+  },
+  {
+    "title": "Hypnotic link",
+    "text": "Double damage and you may give the target 1 <em>Suggestion</em> (as the spell. %SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Frozen",
+    "text": "Double damage. If the spell does cold damage, target takes 1d4 %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Side effect",
+    "text": "Double damage and you become %STATUS-INVISIBLE=invisible% for 1d4 rounds."
+  },
+  {
+    "title": "Turned around",
+    "text": "Double damage and target can take only one move or standard action next round."
+  },
+  {
+    "title": "Stunned",
+    "text": "Normal damage and target is %STATUS-STUNNED=stunned% for 1 round."
+  },
+  {
+    "title": "Call of the wind",
+    "text": "Double damage or triple damage to animals, fey, magical beasts and vermin."
+  },
+  {
+    "title": "Petrified",
+    "text": "Normal damage and target is %STATUS-PETRIFIED=petrified% for 1d4 hours (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Pretty colors",
+    "text": "Double damage and target is %STATUS-DAZZLED=dazzled% for 1d4 rounds."
+  },
+  {
+    "title": "Nerve damage",
+    "text": "Normal damage and target is affected by the <em>Slow</em> spell for 1d6 rounds."
+  },
+  {
+    "title": "Arcane blast",
+    "text": "Double damage and 2d6 random energy damage (%SAVE-CRITICAL=Reflex halves%)."
+  },
+  {
+    "title": "Planar rift",
+    "text": "Normal damage and target sent to a random plane (%SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Eyeburn",
+    "text": "Normal damage and target %STATUS-BLINDED=blinded% for 1d4 rounds (%SAVE-CRITICAL=Fort negates%)."
+  },
+  {
+    "title": "Intense strike",
+    "text": "Double damage and ignore energy resistance (but not immunity)."
+  },
+  {
+    "title": "Transposition",
+    "text": "Double damage and you and target switch places."
+  },
+  {
+    "title": "Light blast",
+    "text": "Double damage and target is %STATUS-BLINDED=blinded% for 1 round."
+  },
+  {
+    "title": "Conduit",
+    "text": "Double damage and target takes a -4 penalty on saves vs. your spells for 1d6 rounds."
+  },
+  {
+    "title": "Lingering magic",
+    "text": "Normal damage this round and half damage each round for 1d4 rounds."
+  },
+  {
+    "title": "Allergic reaction",
+    "text": "Double damage and 1d4 %ABILITY-DAMAGE=damage% to a random ability score."
+  },
+  {
+    "title": "Arcane glow",
+    "text": "Double damage and target glows like <em>Faerie fire</em> for 1d6 rounds."
+  },
+  {
+    "title": "Combustion",
+    "text": "Double damage. If fire spell, target catches fire, taking 2d6 fire damage per round until extinguished."
+  },
+  {
+    "title": "Unnatural selection",
+    "text": "Double damage or triple damage to aberrations and outsiders."
+  },
+  {
+    "title": "Corrosive",
+    "text": "Double damage. If acid spell, target takes 2d6 acid damage for 1d4 rounds."
+  },
+  {
+    "title": "Funny bone",
+    "text": "Double damage and target spends 1 round laughing (as <em>Hideous laughter</em> spell, %SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Phased",
+    "text": "Double damage and target is %STATUS-INCORPOREAL=incorporeal% for 1d3 rounds (%SAVE-CRITICAL=Will negates%)."
+  },
+  {
+    "title": "Life leech",
+    "text": "Normal damage and 1 %STATUS-NEGATIVE-LEVEL=negative level% (%SAVE-CRITICAL=Fort negates% after 1 day)."
+  },
+  {
+    "title": "Siren song",
+    "text": "Double damage or triple damage to giants, humanoids and monstrous humanoids."
+  },
+  {
+    "title": "Distraction",
+    "text": "Double damage and an illusion appears to attack foe, flanking him for you for 1d6 rounds."
+  },
+  {
+    "title": "Arcane goo",
+    "text": "Normal damage and target is %STATUS-ENTANGLED=entangled% (DC 20 Str or Escape Artist to be freed)."
+  },
+  {
+    "title": "Hoarder's wrath",
+    "text": "Double damage or triple damage to dragons."
+  },
+  {
+    "title": "Mind cloud",
+    "text": "Double damage and target is %STATUS-DAZED=dazed% for 1 round."
+  },
+  {
+    "title": "Elemental call",
+    "text": "Normal damage. If the spell does elemental damage, a Medium elemental appears to serve for 1d4 rounds."
+  },
+  {
+    "title": "Splash spell",
+    "text": "Normal damage and half damage to all adjacent targets."
+  },
+  {
+    "title": "Olfactory overload",
+    "text": "Double damage and target loses <em>scent</em> and <em>blindsense</em> for 1 day."
+  },
+  {
+    "title": "Cut off from magic",
+    "text": "Normal damage and target cannot cast spells or use spell-like abilities for 1d4 rounds."
+  },
+  {
+    "title": "Aura of protection",
+    "text": "Double damage and +4 to your AC for 1 round."
+  },
+  {
+    "title": "Vulnerability",
+    "text": "Double damage and if the spell did elemental damage the target is now vulnerable to that element for 3 rounds."
+  },
+  {
+    "title": "Roaring spell",
+    "text": "Double damage and target is %STATUS-DEAFENED=deafened% for 1d4 rounds."
+  },
+  {
+    "title": "Returning spell",
+    "text": "Double damage and spell is not lost."
+  },
+  {
+    "title": "Power surge",
+    "text": "Triple damage."
+  },
+  {
+    "title": "Vampiric magic",
+    "text": "Normal damage. You are healed the same amount."
+  },
+  {
+    "title": "Shrink ray",
+    "text": "Normal damage and target is reduced for 3 rounds (as <em>Reduce person</em>, %SAVE-CRITICAL=Will negates%)."
+  }
+]

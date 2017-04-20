@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Mano destrozada",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-STR=Fue%. La mano queda in\u00fatil %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Sacudido",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-CONFUSED=confuso% por 1d3 rondas (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Golpe ensordecedor",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-DEAFENED=ensordecido% por 1d4 rondas."
+  },
+  {
+    "title": "\u00a1Se apagaron las luces!",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-BLINDED=cegado% por 1d3 rondas."
+  },
+  {
+    "title": "Tr\u00e1quea aplastada",
+    "text": "Da\u00f1o normal y el objetivo no puede respirar o hablar. Requiere un chequeo de curar CD 20."
+  },
+  {
+    "title": "Abierto a la mitad",
+    "text": "Doble da\u00f1o y 1d4 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Parada floja",
+    "text": "Doble da\u00f1o y el objetivo es desarmado de 1 \u00edtem."
+  },
+  {
+    "title": "Apertura sorpresa",
+    "text": "Doble da\u00f1o y un ataque gratuito contra el objetivo con una penalidad de -5."
+  },
+  {
+    "title": "Rompe espaldas",
+    "text": "Doble da\u00f1o y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Contusi\u00f3n terrible",
+    "text": "Doble da\u00f1o y 2d6 de %NONLETHAL-DAMAGE=da\u00f1o no letal%."
+  },
+  {
+    "title": "Pierna rota",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-DEX=Des%. Las velocidades del objetivo son reducidas a la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Darle la vuelta",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
+  },
+  {
+    "title": "\u00bfD\u00f3nde estoy?",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-STUNNED=aturdido% por 1 ronda."
+  },
+  {
+    "title": "Para tus pedacitos que piensan",
+    "text": "Doble da\u00f1o y 1 de %STATUS-BLEED=sangrado% de %ABILITY-INT=Int% (%SAVE-CRITICAL=Salvaci\u00f3n de Fortaleza cada ronda para negarlo%)."
+  },
+  {
+    "title": "Crujido",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-NAUSEATED=mareado% por 1 ronda (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Armadura abollada",
+    "text": "Doble da\u00f1o y 2d6 de %OBJECT-DAMAGE=da\u00f1o a armadura met\u00e1lica% (ignorando dureza)."
+  },
+  {
+    "title": "Sin aliento",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-EXHAUSTED=exhausto% por 1d4 rondas."
+  },
+  {
+    "title": "Maza a la cara",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-DAZED=aturdido% y %STATUS-BLINDED=cegado% por 1 ronda."
+  },
+  {
+    "title": "Golpe agotador",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Conmoci\u00f3n cerebral",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-INT=Int% y %ABILITY-WIS=Sab%."
+  },
+  {
+    "title": "Entra\u00f1as rotas",
+    "text": "Da\u00f1o normal y 1d6 de %STATUS-BLEED=sangrado%. Este sangrado s\u00f3lo puede ser curado con magia."
+  },
+  {
+    "title": "Golpe s\u00f3lido",
+    "text": "Triple da\u00f1o."
+  },
+  {
+    "title": "Golpe deformador",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Pulm\u00f3n colapsado",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-STAGGERED=grogui% por 1d6 rondas."
+  },
+  {
+    "title": "Desprevenido",
+    "text": "Doble da\u00f1o y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y la velocidad del objetivo es reducida por 5 pies %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Cr\u00e1neo roto",
+    "text": "Doble da\u00f1o y 2d6 de %ABILITY-INT=Int% %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortaleza salva la mitad%)."
+  },
+  {
+    "title": "\u00a1Y qu\u00e9date abajo!",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-PRONE=tumbado% y %STATUS-STUNNED=aturdido% por 1 ronda (%SAVE-CRITICAL=Fortaleza niega% estar aturdido)."
+  },
+  {
+    "title": "Trituradora de huesos",
+    "text": "Da\u00f1o normal y elije: (Pierna) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-DEX=Des% y velocidad a la mitad o (Brazo) 1d3 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-STR=Str%. Miembros inutilizados %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "2 por 1",
+    "text": "Doble da\u00f1o al objetivo y da\u00f1o normal a un objetivo adyacente."
+  },
+  {
+    "title": "Intestinos destrozados",
+    "text": "Da\u00f1o normal y 1d4 de %STATUS-BLEED=sangrado% de %ABILITY-CON=Con% (Salvaci\u00f3n de Fortaleza CD 15 cada ronda)."
+  },
+  {
+    "title": "Golpe entumecedor",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y el objetivo es desarmado (1 \u00edtem, %SAVE-CRITICAL=Reflejos niega% ser desarmado)."
+  },
+  {
+    "title": "Rotonda",
+    "text": "Da\u00f1o normal y un ataque gratuito contra todos los enemigos adyacentes con la misma bonificaci\u00f3n."
+  },
+  {
+    "title": "Golpe aturdidor",
+    "text": "Da\u00f1o normal y doble %NONLETHAL-DAMAGE=da\u00f1o no letal%."
+  },
+  {
+    "title": "\u00a1Mif dientef!",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%. El objetivo pierde ataques de mordida y gana 20% de fallar hechizos verbales."
+  },
+  {
+    "title": "Estruendo en el suelo",
+    "text": "Da\u00f1o normal y un intento de derribo contra el objetivo y a todos los enemigos adyacentes."
+  },
+  {
+    "title": "Bofetada",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-DAZED=aturdido% por 1d4 rondas."
+  },
+  {
+    "title": "Costilla rota",
+    "text": "Da\u00f1o normal y 1d3 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y el objetivo queda %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Hacer sonar los t\u00edmpanos",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-DEAFENED=ensordecido% por 1d4 horas."
+  },
+  {
+    "title": "Sonar las campanillas",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-INT=Int% y queda %STATUS-SICKENED=indispuesto% por 1d4 rondas."
+  },
+  {
+    "title": "Impulso",
+    "text": "Doble da\u00f1o y +2 en todas tus tiradas de ataque por 1 ronda."
+  },
+  {
+    "title": "Nariz rota",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CHA=Car% y de 1 %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Costillas rotas",
+    "text": "Doble da\u00f1o y el objetivo no puede curar naturalmente por 1d4 d\u00edas."
+  },
+  {
+    "title": "Derribo",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1d6 casillas hacia atr\u00e1s."
+  },
+  {
+    "title": "Golpe bajo",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-SICKENED=indispuesto% por 1d6 rondas."
+  },
+  {
+    "title": "Al cerebro",
+    "text": "Doble da\u00f1o y el objetivo s\u00f3lo puede tomar una acci\u00f3n de movimiento o est\u00e1ndar en la pr\u00f3xima ronda."
+  },
+  {
+    "title": "Tortazo en el escudo",
+    "text": "Doble da\u00f1o y el escudo del objetivo es desarmado."
+  },
+  {
+    "title": "Veo estrellas",
+    "text": "Da\u00f1o normal y el objetivo sufre 20% de fallar por 1d4 rondas."
+  },
+  {
+    "title": "Buenas noches",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-UNCONSCIOUS=inconsciente% por 1d4 rondas (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Rodilla quebrada",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1os% %ABILITY-DEX=Des%. La velocidad terrestre del objetivo es reducida a 10 pies %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "\u00bfQu\u00e9 est\u00e1 pasando?",
+    "text": "Doble da\u00f1o y 1d4 horas de la memoria del objetivo son borradas."
+  },
+  {
+    "title": "Dedo gordo roto",
+    "text": "Da\u00f1o normal y 1d4 %ABILITY-DAMAGE=da\u00f1os% de %ABILITY-DEX=Des%. La velocidad terrestre del objetivo es reducida a la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Fuera de balance",
+    "text": "Da\u00f1o normal y el objetivo provoca ataques de oportunidad de todos los oponentes que lo amenazan."
+  }
+]

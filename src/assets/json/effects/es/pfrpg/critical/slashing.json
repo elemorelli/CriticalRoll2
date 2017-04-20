@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Iniciales talladas",
+    "text": "Da\u00f1o normal y el objetivo sufre tal humillaci\u00f3n que s\u00f3lo puede atacarte a ti (%SAVE-CRITICAL=Voluntad niega%)."
+  },
+  {
+    "title": "Dedos faltantes",
+    "text": "Da\u00f1o normal y el objetivo pierde 1d3 dedos y 1 %ABILITY-CON=Con% y %ABILITY-STR=Fue% son %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Cortar y tajar",
+    "text": "Doble da\u00f1o y todas las amenazas cr\u00edticas contra el objetivo son confirmadas autom\u00e1ticamente por las siguientes 3 rondas."
+  },
+  {
+    "title": "Apartarse a un lado",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1 casilla en cualquier direcci\u00f3n."
+  },
+  {
+    "title": "Tend\u00f3n cortado",
+    "text": "Da\u00f1o normal y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Decapitaci\u00f3n",
+    "text": "Doble da\u00f1o y muerte (%SAVE-CRITICAL=Fortaleza niega%)."
+  },
+  {
+    "title": "Exhibici\u00f3n desconcertante",
+    "text": "Doble da\u00f1o y el objetivo recibe una penalizaci\u00f3n de -2 a la CA por 1d4 rondas."
+  },
+  {
+    "title": "Tajo profundo",
+    "text": "Da\u00f1o normal y 8 de %STATUS-BLEED=sangrado%. Un chequeo de curar corta el sangrado a la mitad, en vez de detenerlo."
+  },
+  {
+    "title": "Mand\u00edbula destrozada",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%. El objetivo no puede hablar o morder %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Isquiotibiales",
+    "text": "Da\u00f1o normal y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y el objetivo es %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "De las cejas al ment\u00f3n",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y %ABILITY-CHA=Car%. -2 en Percepci\u00f3n y ataques de rango %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Cuchillada en las tripas",
+    "text": "Doble da\u00f1o y 1d4 de %STATUS-BLEED=sangrado%. El objetivo no puede tragar."
+  },
+  {
+    "title": "Ala rasgada",
+    "text": "Doble da\u00f1o y el objetivo pierde vuelo si usa alas."
+  },
+  {
+    "title": "Oreja faltante",
+    "text": "Da\u00f1o normal y 1 de %ABILITY-CHA=Car% %ABILITY-DRAIN=consumidos%. Penalidad de -4 en Percepci\u00f3n %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Abierto de par en par",
+    "text": "Da\u00f1o normal y el objetivo provoca ataques de oportunidad de todos los oponentes que lo amenazan."
+  },
+  {
+    "title": "Tenemos uno que sangra",
+    "text": "Da\u00f1o normal y 2d6 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Corte en la garganta",
+    "text": "Da\u00f1o normal y 2d6 de %STATUS-BLEED=sangrado%. El objetivo no puede hablar o respirar mientras sangra."
+  },
+  {
+    "title": "Golpe de parada",
+    "text": "Doble da\u00f1o y +4 a tu CA por una ronda."
+  },
+  {
+    "title": "Apoyarse sobre el golpe",
+    "text": "Triple da\u00f1o, pero sueltas el arma."
+  },
+  {
+    "title": "Desollar",
+    "text": "Da\u00f1o normal y 1d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Corte de papel",
+    "text": "Da\u00f1o normal y penalizaci\u00f3n de -4 en ataques, chequeos habilidad y caracter\u00edsticas por 1d4 rondas."
+  },
+  {
+    "title": "Mano cortada",
+    "text": "Da\u00f1o normal y el objetivo pierde una mano y sufre 1d3 %ABILITY-CON=Con% y %ABILITY-STR=Fue% %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortitud niega%)."
+  },
+  {
+    "title": "Porrazo con el recazo",
+    "text": "Triple da\u00f1o, pero todo el %NONLETHAL-DAMAGE=da\u00f1o es no letal%."
+  },
+  {
+    "title": "Apertura sorpresa",
+    "text": "Doble da\u00f1o y un ataque gratuito contra el objetivo con una penalidad de -5."
+  },
+  {
+    "title": "Golpe ancho",
+    "text": "Da\u00f1o normal y 1d8 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Desentra\u00f1ar",
+    "text": "Doble da\u00f1o y 1d4 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con% y 1d6 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Corte debilitante",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Ruptura de la cavidad abdominal",
+    "text": "Doble da\u00f1o y 1 %STATUS-BLEED=sangrado% de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Herida muscular",
+    "text": "Doble da\u00f1o y 1d2 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-STR=Fue%."
+  },
+  {
+    "title": "Dedo torcido",
+    "text": "Da\u00f1o normal y 1 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des%. El objetivo no puede usar una mano %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Mal desv\u00edo",
+    "text": "Doble da\u00f1o y el objetivo es desarmado de 1 1 \u00edtem."
+  },
+  {
+    "title": "Nervio tajado",
+    "text": "Doble da\u00f1o y el objetivo s\u00f3lo puede tomar una acci\u00f3n de movimiento o est\u00e1ndar la pr\u00f3ximo ronda."
+  },
+  {
+    "title": "Golpe al arma",
+    "text": "Doble da\u00f1o y %OBJECT-DAMAGE=da\u00f1o normal% al arma del objetivo."
+  },
+  {
+    "title": "Enmara\u00f1ado",
+    "text": "Doble da\u00f1o y puedes iniciar una presa autom\u00e1ticamente."
+  },
+  {
+    "title": "Impulso",
+    "text": "Doble da\u00f1o y +2 en todas tus tiradas de ataque por 1 ronda."
+  },
+  {
+    "title": "Corte en el labio",
+    "text": "Doble da\u00f1o y 1 de %STATUS-BLEED=sangrado%. El objetivo gana 20% de fallar hechizos verbales %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Sangriento",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-SICKENED=indispuesto% por 1d6 rondas."
+  },
+  {
+    "title": "A trav\u00e9s de los ojos",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-BLINDED=cegado% permanentemente (%SAVE-CRITICAL=Reflejos niega%)."
+  },
+  {
+    "title": "Herida repugnante",
+    "text": "Da\u00f1o normal y 1d3 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CHA=Car% y 1 %ABILITY-CHA=Car% %ABILITY-DRAIN=consumidos% (%SAVE-CRITICAL=Fortaleza niega% lo consumido)."
+  },
+  {
+    "title": "Derribo",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1d6 casillas hacia atr\u00e1s."
+  },
+  {
+    "title": "Doloroso y simple",
+    "text": "Doble da\u00f1o y 2d6 de %NONLETHAL-DAMAGE=da\u00f1o no letal%."
+  },
+  {
+    "title": "Correas cortadas",
+    "text": "Doble da\u00f1o y doble penalizador de armadura (ACP) hasta ser arreglada (Artesan\u00eda CD 15)."
+  },
+  {
+    "title": "Columna cercenada",
+    "text": "Doble da\u00f1o y 3d6 %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% (%SAVE-CRITICAL=Fortaleza salva mitad%)."
+  },
+  {
+    "title": "Corte por lo alto",
+    "text": "Doble da\u00f1o y 1d4 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Herida demorada",
+    "text": "Da\u00f1o normal y el objetivo sufre da\u00f1o de %STATUS-BLEED=sangrado% igual al da\u00f1o normal recibido."
+  },
+  {
+    "title": "Corte en la ceja",
+    "text": "Da\u00f1o normal y 1d4 de %STATUS-BLEED=sangrado%. El objetivo queda %STATUS-BLINDED=cegado% mientras sangre."
+  },
+  {
+    "title": "Golpe en la pierna",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Tajo terrible",
+    "text": "Doble da\u00f1o y 1 de %ABILITY-CHA=Car% %ABILITY-DRAIN=consumido%."
+  },
+  {
+    "title": "Escudo rajado",
+    "text": "Doble da\u00f1o y %OBJECT-DAMAGE=da\u00f1o normal% al escudo del objetivo."
+  },
+  {
+    "title": "Armadura da\u00f1ada",
+    "text": "Doble da\u00f1o y %OBJECT-DAMAGE=da\u00f1o normal% a la armadura del objetivo."
+  },
+  {
+    "title": "Pivote",
+    "text": "Doble da\u00f1o y un ataque gratuito contra un enemigo adyacente con la misma bonificaci\u00f3n."
+  },
+  {
+    "title": "Darle la vuelta",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
+  }
+]

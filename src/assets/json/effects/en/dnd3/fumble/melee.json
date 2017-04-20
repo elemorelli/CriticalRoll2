@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Butterfingers",
+    "text": "Drop your weapon."
+  },
+  {
+    "title": "Catch your breath",
+    "text": "You can only take a move action next round."
+  },
+  {
+    "title": "Stuck",
+    "text": "Your weapon is stuck in a nearby surface. DC 20 Str check to free it."
+  },
+  {
+    "title": "Backswing",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Slipped",
+    "text": "You are knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "This sword is too heavy",
+    "text": "You are %STATUS-FATIGUED=fatigued%."
+  },
+  {
+    "title": "Awkward attack",
+    "text": "You take -2 penalty to AC for 1d4 rounds."
+  },
+  {
+    "title": "Overextend",
+    "text": "You provoke an attack of opportunity from all adjacent opponents."
+  },
+  {
+    "title": "Pulled muscle",
+    "text": "You take 1d4 points of %ABILITY-STR=Str% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Fling",
+    "text": "You drop your weapon and it lands 1d6 squares away in a random direction."
+  },
+  {
+    "title": "Broken blade",
+    "text": "Your weapon is destroyed (%SAVE-FUMBLE=Ref negates%). %OBJECT-DAMAGE=Magic weapons use their own save bonus% (Dungeon Master's Guide 214)."
+  },
+  {
+    "title": "Notched",
+    "text": "Your weapon takes 1d6 %OBJECT-DAMAGE=points of damage%, ignoring hardness."
+  },
+  {
+    "title": "Parry! Dodge! Spin! Thrust!",
+    "text": "You are %STATUS-DAZED=dazed% for 1 round."
+  },
+  {
+    "title": "Hand it over",
+    "text": "Your target gains possession of your weapon (%SAVE-FUMBLE=Ref negates%)."
+  },
+  {
+    "title": "Shield crash",
+    "text": "Your attack deals %OBJECT-DAMAGE=damage to your shield%."
+  },
+  {
+    "title": "Winded",
+    "text": "You are %STATUS-EXHAUSTED=exhausted% (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Wide open",
+    "text": "You are %STATUS-FLAT-FOOTED=flat-footed% for 1 round."
+  },
+  {
+    "title": "Critical mistake",
+    "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "Strain",
+    "text": "You take 1d4 points of %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Too much stuff",
+    "text": "You become %STATUS-ENTANGLED=entangled% in your gear until you spend a standard action to free yourself."
+  },
+  {
+    "title": "Spinning swing",
+    "text": "You are %STATUS-SICKENED=sickened% for 1d4 rounds."
+  },
+  {
+    "title": "I told you it was sharp",
+    "text": "You take 1d6 points of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Pin prick",
+    "text": "You take 1 point of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Off balance",
+    "text": "You take a -4 penalty on all attack rolls for 1 round."
+  },
+  {
+    "title": "Sorry",
+    "text": "Your attack hits an ally adjacent to you or the target."
+  },
+  {
+    "title": "Bonk",
+    "text": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Catastrophic failure",
+    "text": "You fall %STATUS-UNCONSCIOUS=unconscious% for 1d6 rounds (%SAVE-FUMBLE=Will negates%)."
+  },
+  {
+    "title": "Pointy end goes there",
+    "text": "You take 1 point of %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Broken haft",
+    "text": "Your weapon loses reach. You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check)."
+  },
+  {
+    "title": "Fog of war",
+    "text": "You threaten no square for 1d6 rounds."
+  },
+  {
+    "title": "Go for the eyes",
+    "text": "You are %STATUS-BLINDED=blinded% for 1 round."
+  },
+  {
+    "title": "Punt",
+    "text": "Your weapon flies 2d6 squares in a random direction."
+  },
+  {
+    "title": "Bad grip",
+    "text": "Your weapon deals %NONLETHAL-DAMAGE=nonlethal damage% for the next 3 rounds."
+  },
+  {
+    "title": "Who was that",
+    "text": "You are %STATUS-DAZED=dazed% for 1d3 rounds."
+  },
+  {
+    "title": "You meant to do that",
+    "text": "Move 10 feet in a random direction provoking attacks of opportunity as normal."
+  },
+  {
+    "title": "Eat dirt",
+    "text": "You fall %STATUS-PRONE=prone% and are %STATUS-BLINDED=blinded% for 1d3 rounds (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Second thoughts",
+    "text": "You are %STATUS-SICKENED=sickened% for 1d6 rounds."
+  },
+  {
+    "title": "Attack the darkness",
+    "text": "All your enemies have concealment from you for 1d4 rounds."
+  },
+  {
+    "title": "Wait! What?",
+    "text": "You are %STATUS-CONFUSED=confused% for 1 round."
+  },
+  {
+    "title": "Wrong end",
+    "text": "If you're using a slashing weapon, you take 1d6 points of damage and 1 point of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Vibration",
+    "text": "If you're using a bludgeoning weapon, you take 1d3 of %ABILITY-STR=Str% %ABILITY-DAMAGE=damage% and drop your weapon."
+  },
+  {
+    "title": "No way",
+    "text": "Your attack hits the target, but deals minimum damage."
+  },
+  {
+    "title": "Funny bone",
+    "text": "You drop whatever is in your off hand."
+  },
+  {
+    "title": "Bent",
+    "text": "You take -4 penalty on all attacks with this weapon until it is repaired (DC 20 Craft Check)."
+  },
+  {
+    "title": "All or nothing",
+    "text": "You take a -1 penalty on attack rolls until you score a critical hit."
+  },
+  {
+    "title": "Surrounded by foes",
+    "text": "Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "On the receiving end",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Bohemian earspoon",
+    "text": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Heal Check)."
+  },
+  {
+    "title": "Better to give",
+    "text": "You attack damages you instead. Use your target's Str modifier."
+  },
+  {
+    "title": "Cutter",
+    "text": "You take 1 point of %ABILITY-STR=Str% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "This is bad",
+    "text": "You take an amount of %STATUS-BLEED=bleed% equal to your Str bonus (minimum 1)."
+  },
+  {
+    "title": "Armor smash",
+    "text": "Your attack deals %OBJECT-DAMAGE=damage to your armor%."
+  }
+]

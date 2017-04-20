@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Mezclar las cosas",
+    "text": "No puedes hacer ataques de rango por 1d6 rondas."
+  },
+  {
+    "title": "Apunta cuidadosamente la pr\u00f3xima vez",
+    "text": "Por 3 rondas, debes gastar una acci\u00f3n completa para hacer un \u00fanico ataque."
+  },
+  {
+    "title": "\u00a1No me golpees!",
+    "text": "Por 3 rondas, sufres una penalizaci\u00f3n adicional de -2 en los ataques de rango por cada aliado en combate melee con tu objetivo."
+  },
+  {
+    "title": "Viento fantasma",
+    "text": "Intentas compensar una brisa que no existe. Sufres una penalizaci\u00f3n de -2 en ataques de rango por 3 rondas."
+  },
+  {
+    "title": "Retroceso",
+    "text": "Te mueves una casilla hacia atr\u00e1s y quedas %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Fallo incre\u00edble",
+    "text": "Quedas %STATUS-STUNNED=aturdido% por una ronda (%SAVE-FUMBLE=Fortaleza niega%)."
+  },
+  {
+    "title": "No es mi pony",
+    "text": "Tu ataque acierta contra el animal o montura m\u00e1s cercana."
+  },
+  {
+    "title": "Doble falla",
+    "text": "Gastas el doble de municiones en este ataque."
+  },
+  {
+    "title": "Cerca de la oreja",
+    "text": "Quedas %STATUS-DEAFENED=ensordecido% %UNTIL-HEALED=hasta ser curado% (Curar CD 15)."
+  },
+  {
+    "title": "Inseguro",
+    "text": "Sufres una penalizaci\u00f3n de -1 en ataques por 1d4 rondas o hasta que confirmes un golpe cr\u00edtico."
+  },
+  {
+    "title": "En la l\u00ednea de fuego",
+    "text": "Tu ataque acierta contra el aliado m\u00e1s cercano y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica."
+  },
+  {
+    "title": "Bajar la guardia",
+    "text": "Provocas ataques de oportunidad de todos los enemigos que amenacen."
+  },
+  {
+    "title": "Arma trabada",
+    "text": "Si utilizas un arma de proyectiles, deja de funcionar. Debes gastar 1 acci\u00f3n est\u00e1ndar para destrabarla."
+  },
+  {
+    "title": "Um, ups",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "\u00bfQu\u00e9 chances hab\u00eda?",
+    "text": "Si el ataque fue hecho con armas arrojadizas, aciertas al objetivo pero el arma termina en la posesi\u00f3n del objetivo."
+  },
+  {
+    "title": "Perder el agarre",
+    "text": "S\u00f3lo puedes tomar una acci\u00f3n de movimiento la pr\u00f3xima ronda."
+  },
+  {
+    "title": "Pellizco en las partes",
+    "text": "Sufres 1d6 puntos de da\u00f1o."
+  },
+  {
+    "title": "Demasiada sangre",
+    "text": "Queda %STATUS-SICKENED=indispuesto% por 1d6 rondas."
+  },
+  {
+    "title": "\u00bfHuh?",
+    "text": "Quedas %STATUS-CONFUSED=confuso% por 1 ronda."
+  },
+  {
+    "title": "Visi\u00f3n doble",
+    "text": "Todos tus ataques tienen 50% de fallo por 1 ronda."
+  },
+  {
+    "title": "Calcular mal la distancia",
+    "text": "Todos los ataques despu\u00e9s del primer rango de incremento tienen el triple de penalizaci\u00f3n por distancia por 3 rondas."
+  },
+  {
+    "title": "Sobrecompensar",
+    "text": "Todos los objetivos con cobertura ganan una bonificaci\u00f3n de +4 a la CA contra ti por 3 rondas."
+  },
+  {
+    "title": "Fuego amistoso",
+    "text": "El ataque acierta con el aliado m\u00e1s cercano al objetivo."
+  },
+  {
+    "title": "Perdiste el objetivo",
+    "text": "Sufres una penalizaci\u00f3n de -4 en todos los ataques por 1 ronda."
+  },
+  {
+    "title": "Disparo en el pie",
+    "text": "Sufres 1d2 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-DEX=Des% y tu velocidad es reducida a la mitad %UNTIL-HEALED=hasta ser curado%."
+  },
+  {
+    "title": "Tirar m\u00e1s all\u00e1",
+    "text": "Si el ataque fue hecho con un arma arrojadiza, el arma viaja 5 veces su rango de incremento en una direcci\u00f3n aleatoria."
+  },
+  {
+    "title": "Visi\u00f3n estrecha",
+    "text": "Por las siguientes 3 rondas, tienes una bonificaci\u00f3n de +1 en las tiradas de ataque, pero quedas %STATUS-FLAT-FOOTED=desprevenido%."
+  },
+  {
+    "title": "Todos los pulgares",
+    "text": "Pierdes tu bonificaci\u00f3n de %ABILITY-DEX=Des% por 3 rondas."
+  },
+  {
+    "title": "En el blanco",
+    "text": "Tu tiro rebota y te acierta cerca del ojo. Quedas %STATUS-BLINDED=cegado% por 1 ronda."
+  },
+  {
+    "title": "Mala alineaci\u00f3n",
+    "text": "Sufres una penalizaci\u00f3n de -4 en las tiradas de ataque con esta arma hasta ser reparada (Artesan\u00eda CD 20)."
+  },
+  {
+    "title": "Rajada",
+    "text": "Tu arma sufre 1d6 %OBJECT-DAMAGE=puntos de da\u00f1o%, ignorando dureza."
+  },
+  {
+    "title": "\u00a1Ups!",
+    "text": "Eres %STATUS-PRONE=tumbado%."
+  },
+  {
+    "title": "Atado",
+    "text": "Quedas %STATUS-ENTANGLED=enmara\u00f1ado% con tu equipo hasta que gastes una acci\u00f3n est\u00e1ndar en liberarte."
+  },
+  {
+    "title": "Esguince",
+    "text": "Sufres 1d4 puntos de %ABILITY-DAMAGE=da\u00f1o% %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Mellado",
+    "text": "Sufres 1 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Torpe",
+    "text": "Sueltas tu arma."
+  },
+  {
+    "title": "Municiones derramadas",
+    "text": "Tu munici\u00f3n cae de su contenedor y tarda 1d6 rondas para ser reunida."
+  },
+  {
+    "title": "Sangre en la cabeza",
+    "text": "Quedas %STATUS-SICKENED=indispuesto% por 1d4 rondas."
+  },
+  {
+    "title": "\u00a1Mis entra\u00f1as!",
+    "text": "Sufres 1 puntos de %ABILITY-DAMAGE=da\u00f1o% de %ABILITY-CON=Con%."
+  },
+  {
+    "title": "Dedos mellados",
+    "text": "Sufres 1d6 de %STATUS-BLEED=sangrado%."
+  },
+  {
+    "title": "Tend\u00f3n desgarrado",
+    "text": "Sufres 1 de %STATUS-BLEED=sangrado% de %ABILITY-DEX=Des%."
+  },
+  {
+    "title": "Roto",
+    "text": "Tu arma es destruida (%SAVE-FUMBLE=Reflejos niega%). %OBJECT-DAMAGE=Armas m\u00e1gicas usan su propia tirada de salvaci\u00f3n% (Core Rulebook 538)."
+  },
+  {
+    "title": "Todo lo que ten\u00edas",
+    "text": "Quedas %STATUS-EXHAUSTED=exhausto% (%SAVE-FUMBLE=Fortaleza niega%)."
+  },
+  {
+    "title": "Cuerdas rotas",
+    "text": "Si el ataque fue realizado con un arco o ballesta, la cuerda se rompe y requiere 1d3 rondas para ser arreglado."
+  },
+  {
+    "title": "Arma equivocada",
+    "text": "Si el ataque fue hecho con armas arrojadizas, lanzas un objeto aleatorio de tu equipo."
+  },
+  {
+    "title": "Codo de arquero",
+    "text": "Sufres una penalizaci\u00f3n de -2 en todos los ataques de rango por 1d4 minutos."
+  },
+  {
+    "title": "Abierto de par en par",
+    "text": "Quedas %STATUS-FLAT-FOOTED=desprevenido% por 1 ronda."
+  },
+  {
+    "title": "Tiro por la culata",
+    "text": "El ataque te hace da\u00f1o a ti en vez de al objetivo."
+  },
+  {
+    "title": "Punter\u00eda errante",
+    "text": "Vuelve a tirar el ataque contra la criatura m\u00e1s cercana al objetivo (Excluy\u00e9ndote a ti mismo)."
+  },
+  {
+    "title": "Te vas a sacar el ojo",
+    "text": "El ataque te acierta a ti mismo y es una amenaza cr\u00edtica. Debes confirmar la amenaza cr\u00edtica."
+  },
+  {
+    "title": "Espalda arqueada",
+    "text": "Quedas %STATUS-FATIGUED=fatigado%."
+  },
+  {
+    "title": "Posici\u00f3n inc\u00f3moda",
+    "text": "Recibes -2 a tu CA por 1d4 rondas."
+  }
+]

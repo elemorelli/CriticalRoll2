@@ -1,0 +1,210 @@
+[
+  {
+    "title": "V\u00f3rtice temporal",
+    "text": "Da\u00f1o normal y el objetivo se desvanece, reapareciendo 1d4 turnos m\u00e1s tarde."
+  },
+  {
+    "title": "Efecto m\u00e1ximo",
+    "text": "Maximiza todas las variables (no tiradas) del hechizo."
+  },
+  {
+    "title": "Hechizo absorbente",
+    "text": "Doble da\u00f1o y el objetivo pierde un hechizo aleatorio o un uso de habilidad m\u00e1gica."
+  },
+  {
+    "title": "Descarga salvaje",
+    "text": "Da\u00f1o normal y da\u00f1o normal de un tipo de energ\u00eda al azar."
+  },
+  {
+    "title": "Atroz",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-POISONED=intoxicado% por 1d6 rondas."
+  },
+  {
+    "title": "Exhibici\u00f3n pavorosa",
+    "text": "Da\u00f1o normal y el objetivo %STATUS-FRIGHTENED=asustado% por 1d4 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Sab niega%)."
+  },
+  {
+    "title": "Aura disipadora",
+    "text": "Da\u00f1o normal y disipa efectos m\u00e1gicos sobre el objetivo."
+  },
+  {
+    "title": "Hechizo contundente",
+    "text": "Da\u00f1o doble y el objetivo queda %STATUS-EXHAUSTED=exhausto en 1 etapa%."
+  },
+  {
+    "title": "Derribo",
+    "text": "Doble da\u00f1o y el objetivo es empujado 1d6 \u00D7 5 pies hacia atr\u00e1s."
+  },
+  {
+    "title": "Te quiero, hermano",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-CHARMED=encantado% por 3 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Car niega%)."
+  },
+  {
+    "title": "Electrocutado",
+    "text": "Da\u00f1o doble. Si el hechizo es el\u00e9ctrico, el objetivo queda %STATUS-STUNNED=aturdido% por 1d4 rondas."
+  },
+  {
+    "title": "Enlace hipn\u00f3tico",
+    "text": "Doble da\u00f1o y puedes darle al objetivo 1 <em>Sugesti\u00f3n</em> (Como el hechizo. %SAVE-CRITICAL=Salvaci\u00f3n de Car niega%)."
+  },
+  {
+    "title": "Congelado",
+    "text": "Doble da\u00f1o. Si el hechizo es de tipo frio el objetivo takes 1d4 %ABILITY-DEX=Des% de %ABILITY-REDUCTION=reducci\u00f3n de habilidad%."
+  },
+  {
+    "title": "Efecto colateral",
+    "text": "Da\u00f1o doble y eres %STATUS-INVISIBLE=invisible% como con el hechizo de invisibilidad por 1d4 rondas."
+  },
+  {
+    "title": "Volteado",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-INCAPACITATED=incapacitado% por una ronda."
+  },
+  {
+    "title": "Aturdido",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-STUNNED=aturdido% por 1 ronda."
+  },
+  {
+    "title": "Llamada del viento",
+    "text": "Doble da\u00f1o o da\u00f1o triple si es a bestias o criaturas fe\u00e9ricas."
+  },
+  {
+    "title": "Petrificado",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-petrificado=petrificado% por 1d4 horas (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Colores bonitos",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-BLINDED=cegado% por 1d4 rondas."
+  },
+  {
+    "title": "Da\u00f1o en los nervios",
+    "text": "Da\u00f1o normal y el objetivo sufre los efectos de <em>Lentificar</em> por 1d6 rondas."
+  },
+  {
+    "title": "Estallido arcano",
+    "text": "Doble da\u00f1o y 2d6 da\u00f1o de un tipo de energ\u00eda aleatoria (%SAVE-CRITICAL=Salvaci\u00f3n de Des salva la mitad%)."
+  },
+  {
+    "title": "Brecha planar",
+    "text": "Da\u00f1o normal y el objetivo es enviado a un plano aleatorio (%SAVE-CRITICAL=Salvaci\u00f3n de Int niega%)."
+  },
+  {
+    "title": "Quemadura de ojos",
+    "text": "Da\u00f1o normal y el objetivo queda %STATUS-BLINDED=cegado% por 1d4 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega%)."
+  },
+  {
+    "title": "Golpe intenso",
+    "text": "Doble da\u00f1o e ignora resistencia de energ\u00eda (No as\u00ed inmunidad)."
+  },
+  {
+    "title": "Transposici\u00f3n",
+    "text": "Da\u00f1o doble e intercambias lugares con tu objetivo."
+  },
+  {
+    "title": "Estallido de luz",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-BLINDED=cegado% por 1 ronda."
+  },
+  {
+    "title": "Conducto",
+    "text": "Doble da\u00f1o y el objetivo tiene %DISADVANTAGE=desventaja% en salvaciones contra tus hechizos por 1d6 rondas."
+  },
+  {
+    "title": "Magia persistente",
+    "text": "Da\u00f1o normal esta ronda y sufre mitad del da\u00f1o por 1d4 rondas."
+  },
+  {
+    "title": "Reacci\u00f3n al\u00e9rgica",
+    "text": "Doble da\u00f1o y 1d4 de %ABILITY-REDUCTION=reducci\u00f3n de habilidad% a una caracter\u00edstica aleatoria."
+  },
+  {
+    "title": "Resplandor arcano",
+    "text": "Da\u00f1o doble y el objetivo resplandece como <em>Fuego fe\u00e9rico</em> por 1d6 rondas."
+  },
+  {
+    "title": "Combusti\u00f3n",
+    "text": "Da\u00f1o doble. Si el hechizo es de fuego, el objetivo es incendiado, sufriendo 2d6 de da\u00f1o de fuego por ronda hasta que sea extinguido."
+  },
+  {
+    "title": "Selecci\u00f3n no-natural",
+    "text": "Doble da\u00f1o o da\u00f1o triple contra aberraciones, demonios, celestiales y monstruosidades."
+  },
+  {
+    "title": "Corrosivo",
+    "text": "Doble da\u00f1o. Si el hechizo es de \u00e1cido, el objetivo recibe 2d6 da\u00f1o de \u00e1cido por 1d4 rondas."
+  },
+  {
+    "title": "H\u00famero",
+    "text": "Doble da\u00f1o y el objetivo pasa 1 ronda ri\u00e9ndose (Como el hechizo <em>Terribles carcajadas</em>, %SAVE-CRITICAL=Salvaci\u00f3n de Sab niega%)."
+  },
+  {
+    "title": "Desfasado",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-INCORPOREAL=incorp\u00f3reo% por 1d3 rondas (%SAVE-CRITICAL=Salvaci\u00f3n de Int niega%)."
+  },
+  {
+    "title": "Robo de vida",
+    "text": "Da\u00f1o normal y 2d6 de da\u00f1o necr\u00f3tico como %STATUS-LIFE-DRAIN=drenar vida%, como el ataque de un  <em>Espectro</em> (%SAVE-CRITICAL=Salvaci\u00f3n de Con niega% luego de un d\u00eda)."
+  },
+  {
+    "title": "Canci\u00f3n de sirena",
+    "text": "Doble da\u00f1o o triple da\u00f1o si es a gigantes, humanoides y humanoides monstruosos."
+  },
+  {
+    "title": "Distracci\u00f3n",
+    "text": "Doble da\u00f1o y una ilusi\u00f3n aparece para atacar al objetivo, flanque\u00e1ndolo para ti por 1d6 rondas."
+  },
+  {
+    "title": "Baba arcana",
+    "text": "Da\u00f1o normal y el objetivo es %STATUS-RESTRAINED=restringido% (DC 20 Fue o Des para liberarse)."
+  },
+  {
+    "title": "Hoarder's wrath",
+    "text": "Da\u00f1o doble o triple si es contra dragones."
+  },
+  {
+    "title": "Mente nublada",
+    "text": "Doble da\u00f1o y el objetivo es %STATUS-INCAPACITATED=incapacitado% por 1 ronda."
+  },
+  {
+    "title": "Llamada elemental",
+    "text": "Da\u00f1o normal. Si es un hechizo de da\u00f1o elemental, un elemental de nivel apropiado aparece para servir por 1d4 rondas."
+  },
+  {
+    "title": "Hechizo salpicador",
+    "text": "Da\u00f1o normal y mitad de da\u00f1o a todos los objetivos adyacentes."
+  },
+  {
+    "title": "Sobrecarga sensorial",
+    "text": "Doble da\u00f1o y el objetivo pierde <em>Olfato</em> y <em>Vista ciega</em> por 1 d\u00eda."
+  },
+  {
+    "title": "Aislado de magia",
+    "text": "Da\u00f1o normal y el objetivo no puede lanzar hechizos o usar habilidades m\u00e1gicas por 1d4 rondas."
+  },
+  {
+    "title": "Aura de protecci\u00f3n",
+    "text": "Doble da\u00f1o y recibes un bono de +4 a tu Clase de Armadura (CA) por 1 round."
+  },
+  {
+    "title": "Vulnerabilidad",
+    "text": "Doble da\u00f1o y si el hechizo hizo da\u00f1o elemental el objetivo es ahora vulnerable a ese elemento por 3 rondas."
+  },
+  {
+    "title": "Hechizo rugiente",
+    "text": "Doble da\u00f1o y el objetivo queda %STATUS-DEAFENED=ensordecido% por 1d4 rondas."
+  },
+  {
+    "title": "Hechizo retornante",
+    "text": "Doble da\u00f1o y el hechizo no se gasta."
+  },
+  {
+    "title": "Descarga de poder",
+    "text": "Triple da\u00f1o."
+  },
+  {
+    "title": "Magia vamp\u00edrica",
+    "text": "Da\u00f1o normal. Te curas la misma cantidad de da\u00f1o."
+  },
+  {
+    "title": "Rayo encogedor",
+    "text": "Da\u00f1o normal y el objetivo es reducido por 3 rondas (como <em>Reducir persona</em>, %SAVE-CRITICAL=Salvaci\u00f3n de Sab niega%)."
+  }
+]

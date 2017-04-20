@@ -1,0 +1,210 @@
+[
+  {
+    "title": "Mix it up",
+    "text": "You are unable to make ranged attacks for the next 1d6 rounds."
+  },
+  {
+    "title": "Aim carefully next time",
+    "text": "For 3 rounds, you must spend a full round action to make a single attack."
+  },
+  {
+    "title": "Don't hit me!",
+    "text": "For 3 rounds, you take an additional -2 penalty on ranged attacks for each ally in melee combat with your target."
+  },
+  {
+    "title": "Phantom wind",
+    "text": "You compensate for a breeze which isn't there. You take -2 penalty on ranged attack rolls for 3 rounds."
+  },
+  {
+    "title": "Recoil",
+    "text": "You move backward 1 square and fall %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Amazing miss",
+    "text": "You are %STATUS-STUNNED=stunned% for 1 round (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Not my pony",
+    "text": "Your attack hits the nearest allied animal or mount."
+  },
+  {
+    "title": "Double miss",
+    "text": "You use twice as much ammunition on this attack."
+  },
+  {
+    "title": "Close to the ear",
+    "text": "You are %STATUS-DEAFENED=deafened% %UNTIL-HEALED=until healed% (DC 15 Heal Check)."
+  },
+  {
+    "title": "Insecure",
+    "text": "You take a -1 penalty on attack rolls for 1d4 rounds or until you score a critical hit."
+  },
+  {
+    "title": "In the line of fire",
+    "text": "Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "Lowered guard",
+    "text": "You provoke attacks of opportunity from all threatening foes."
+  },
+  {
+    "title": "Weapon jam",
+    "text": "If using a projectile weapon, it does not function. Spend 1 standard action to clear."
+  },
+  {
+    "title": "Um, oops",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "What are the odds?",
+    "text": "If you made a thrown attack, you hit the target, but the weapon ends up in the target's possession."
+  },
+  {
+    "title": "Lost grip",
+    "text": "You can only take a move action next round."
+  },
+  {
+    "title": "Pinch in parts",
+    "text": "You take 1d6 points of damage."
+  },
+  {
+    "title": "So much blood",
+    "text": "You are %STATUS-SICKENED=sickened% for 1d6 rounds."
+  },
+  {
+    "title": "Huh?",
+    "text": "You are %STATUS-CONFUSED=confused% for 1 round."
+  },
+  {
+    "title": "Seeing double",
+    "text": "All your attacks have a 50% miss chance for 1 round."
+  },
+  {
+    "title": "Misjudged the distance",
+    "text": "All attack rolls beyond the first ranged increment have triple the normal distance penalty for 3 rounds."
+  },
+  {
+    "title": "Overcompensate",
+    "text": "All targets with cover gain an additional +4 bonus to AC against you for 3 rounds."
+  },
+  {
+    "title": "Friendly fire",
+    "text": "Your attack hits your ally closest to the target."
+  },
+  {
+    "title": "Lost the target",
+    "text": "You take a -4 penalty on all attack rolls for 1 round."
+  },
+  {
+    "title": "Shot your foot",
+    "text": "You take 1d2 points of %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage% and your speed is reduced by half %UNTIL-HEALED=until healed%."
+  },
+  {
+    "title": "Overthrow",
+    "text": "If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction."
+  },
+  {
+    "title": "Tunnel vision",
+    "text": "For the next 3 rounds, you have a +1 bonus on attack rolls, but you %STATUS-FLAT-FOOTED=flat-footed%."
+  },
+  {
+    "title": "All thumbs",
+    "text": "You lose your %ABILITY-DEX=Dex% bonus on attack rolls for 3 rounds."
+  },
+  {
+    "title": "Bull's eye",
+    "text": "Your shot ricochets and hits you near the eye. You are %STATUS-BLINDED=blinded% for 1 round."
+  },
+  {
+    "title": "Bad alignment",
+    "text": "You take -4 penalty on all attacks with this weapon until repaired (DC 20 Craft check)."
+  },
+  {
+    "title": "Cracked",
+    "text": "Your weapon (not ammunition) takes 1d6 %OBJECT-DAMAGE=points of damage%, ignoring hardness."
+  },
+  {
+    "title": "Whoops!",
+    "text": "You are knocked %STATUS-PRONE=prone%."
+  },
+  {
+    "title": "Tied up",
+    "text": "You become %STATUS-ENTANGLED=entangled% in your gear until you spend a standard action to free yourself."
+  },
+  {
+    "title": "Sprain",
+    "text": "You take 1d4 points of %ABILITY-DEX=Dex% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Nicked",
+    "text": "You take 1 point of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Klutz",
+    "text": "You drop your weapon."
+  },
+  {
+    "title": "Spilled ammo",
+    "text": "Your ammunition falls from its container and takes 1d6 rounds to gather up."
+  },
+  {
+    "title": "Head rush",
+    "text": "You are %STATUS-SICKENED=sickened% for 1d4 rounds."
+  },
+  {
+    "title": "My spleeny bits!",
+    "text": "You take 1 point of %ABILITY-CON=Con% %ABILITY-DAMAGE=damage%."
+  },
+  {
+    "title": "Notched fingers",
+    "text": "You take 1d6 points of %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Torn tendon",
+    "text": "You take 1 point of %ABILITY-DEX=Dex% %STATUS-BLEED=bleed%."
+  },
+  {
+    "title": "Broken",
+    "text": "Your weapon is destroyed (%SAVE-FUMBLE=Ref negates%). %OBJECT-DAMAGE=Magic weapons use their own save bonus% (Core Rulebook 538)."
+  },
+  {
+    "title": "Everything you got",
+    "text": "You are %STATUS-EXHAUSTED=exhausted% (%SAVE-FUMBLE=Fort negates%)."
+  },
+  {
+    "title": "Snapped string",
+    "text": "If attack was made with a bow or crossbow, the string breaks and requires 1d3 round to fix."
+  },
+  {
+    "title": "Wrong weapon",
+    "text": "If you made a thrown attack, you throw a random object from your gear."
+  },
+  {
+    "title": "Archer's elbow",
+    "text": "You take a -2 penalty on all ranged attack rolls for 1d4 minutes."
+  },
+  {
+    "title": "Wide open",
+    "text": "You are %STATUS-FLAT-FOOTED=flat-footed% for 1 round."
+  },
+  {
+    "title": "Backfire",
+    "text": "The attack deals damage to you instead of the target."
+  },
+  {
+    "title": "Errant aim",
+    "text": "Reroll attack against creature nearest the target (yourself excluded)."
+  },
+  {
+    "title": "You'll shoot your eye out",
+    "text": "The attack hits you and is a critical threat. You must roll to confirm the critical hit."
+  },
+  {
+    "title": "Arching back",
+    "text": "You are %STATUS-FATIGUED=fatigued%."
+  },
+  {
+    "title": "Awkward attack",
+    "text": "You take -2 penalty to AC for 1d4 rounds."
+  }
+]

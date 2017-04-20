@@ -9,11 +9,39 @@ import {EffectsService} from "../../../providers/effects-service";
 
 export class Buttons {
 
-  constructor( public effectsService: EffectsService) {
-
+  constructor(public effectsService: EffectsService) {
   }
 
-  public drawCriticalSlashingEffect() {
-    this.effectsService.drawCriticalSlashingEffect('en', 'pfrpg');
+  drawCriticalSlashingEffect() {
+    this.effectsService.drawCriticalSlashingEffect();
   }
+
+  drawCriticalBludgeoningEffect() {
+    this.effectsService.drawCriticalBludgeoningEffect();
+  }
+
+  drawCriticalPiercingEffect() {
+    this.effectsService.drawCriticalPiercingEffect();
+  }
+
+  drawCriticalMagicalEffect() {
+    this.effectsService.drawCriticalMagicalEffect();
+  }
+
+  drawFumbleMeleeEffect() {
+    this.effectsService.drawFumbleMeleeEffect();
+  }
+
+  drawFumbleRangedEffect() {
+    this.effectsService.drawFumbleRangedEffect();
+  }
+
+  drawFumbleNaturalEffect() {
+    this.effectsService.drawFumbleNaturalEffect();
+  }
+
+  drawFumbleMagicalEffect() {
+    this.effectsService.drawFumbleMagicalEffect();
+  }
+
 }
