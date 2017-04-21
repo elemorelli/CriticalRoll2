@@ -15,6 +15,10 @@ export class EffectsService {
   private languanges: any = ['en', 'es'];
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
+  private tooltipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
+  //private tooltipHTML = "<a (click)='showTooltip(&apos;%1&apos;);'>$2</a>";
+  private tooltipHTML = "<a>$2</a>";
+
   constructor(private http: Http) {
 
     this.languanges.forEach(language => {
@@ -50,7 +54,9 @@ export class EffectsService {
     let effects = this.effectsData[language][system][type][subtype];
     let effectIndex = Math.floor(Math.random() * effects.length);
     let drawnEffect = effects[effectIndex];
-    let model = new EffectModel(type, subtype, drawnEffect.title, drawnEffect.text)
+
+    let effectText = drawnEffect.text.replace(this.tooltipPattern, this.tooltipHTML);
+    let model = new EffectModel(type, subtype, drawnEffect.title, effectText);
     this.drawnEffects.push(model);
   }
 

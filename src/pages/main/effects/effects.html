@@ -6,8 +6,6 @@
       </button>
       {{effect.title}}
     </ion-card-header>
-    <ion-card-content>
-      {{effect.text}}
-    </ion-card-content>
+    <ion-card-content [innerHTML]="effect.text"></ion-card-content>
   </ion-card>
 </ion-list>

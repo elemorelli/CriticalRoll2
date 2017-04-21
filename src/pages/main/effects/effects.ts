@@ -5,7 +5,6 @@ import {EffectsService} from "../../../providers/effects-service";
   selector: 'effects',
   templateUrl: 'effects.html'
 })
-
 export class Effects {
 
   public effects: any;
