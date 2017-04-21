@@ -54,6 +54,6 @@ export class Buttons {
   }
 
   private emitScrollToBottom() {
-    this.scrollHandler.emit('SCROLL_TO_BOTTOM');
+    setTimeout(() => this.scrollHandler.emit('SCROLL_TO_BOTTOM'), 10)
   }
 }
