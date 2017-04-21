@@ -16,8 +16,7 @@ export class EffectsService {
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
   private tooltipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
-  //private tooltipHTML = "<a (click)='showTooltip(&apos;%1&apos;);'>$2</a>";
-  private tooltipHTML = "<a>$2</a>";
+  private tooltipHTML = "<a href='javascript:window.angularComponentRef.displayTooltip(&apos;$1&apos;)'>$2</a>";
 
   constructor(private http: Http) {
 

@@ -3,6 +3,7 @@ import {ErrorHandler, NgModule} from "@angular/core";
 import {HttpModule} from "@angular/http";
 import {IonicApp, IonicErrorHandler, IonicModule} from "ionic-angular";
 import {MyApp} from "./app.component";
+import {SafePipe} from "../pipes/safe-pipe";
 import {MainPage} from "../pages/main/main";
 import {Buttons} from "../pages/main/buttons/buttons";
 import {Effects} from "../pages/main/effects/effects";
@@ -17,6 +18,7 @@ import {EffectsService} from "../providers/effects-service";
 @NgModule({
   declarations: [
     MyApp,
+    SafePipe,
     MainPage,
     Buttons,
     Effects,
