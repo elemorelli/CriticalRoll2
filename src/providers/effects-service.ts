@@ -1,7 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/map";
-import {EffectModel} from "./effect-model";
 
 @Injectable()
 export class EffectsService {
@@ -68,10 +67,13 @@ export class EffectsService {
     let effects = this.effectsData[language][system][type][subtype];
     let effectIndex = Math.floor(Math.random() * effects.length);
     let drawnEffect = effects[effectIndex];
-
     let effectText = drawnEffect.text.replace(this.ruletipPattern, this.ruletipHTML);
-    let model = new EffectModel(type, subtype, drawnEffect.title, effectText);
-    this.drawnEffects.push(model);
+    this.drawnEffects.push({
+      type: type,
+      subtype: subtype,
+      title: drawnEffect.title,
+      text: effectText
+    });
   }
 
   drawCriticalSlashingEffect() {
