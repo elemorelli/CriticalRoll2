@@ -15,34 +15,49 @@ export class EffectsService {
   private languanges: any = ['en', 'es'];
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
-  private tooltipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
-  private tooltipHTML = "<a href='javascript:window.angularComponentRef.displayTooltip(&apos;$1&apos;)'>$2</a>";
+  private ruletips: object = {};
+  private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
+  private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;)'>$2</a>";
 
   constructor(private http: Http) {
 
     this.languanges.forEach(language => {
       this.effectsData[language] = {};
+      this.ruletips[language] = {};
       this.systems.forEach(system => {
         this.effectsData[language][system] = [];
+        this.ruletips[language][system] = {};
         this.effectsData[language][system]['critical'] = {};
         this.effectsData[language][system]['fumble'] = {};
-        this.loadFromJson(language, system, 'critical', 'slashing');
-        this.loadFromJson(language, system, 'critical', 'bludgeoning');
-        this.loadFromJson(language, system, 'critical', 'piercing');
-        this.loadFromJson(language, system, 'critical', 'magical');
-        this.loadFromJson(language, system, 'fumble', 'melee');
-        this.loadFromJson(language, system, 'fumble', 'ranged');
-        this.loadFromJson(language, system, 'fumble', 'natural');
-        this.loadFromJson(language, system, 'fumble', 'magical');
+        this.loadRuletipsFromJson(language, system);
+        this.loadEffectsFromJson(language, system, 'critical', 'slashing');
+        this.loadEffectsFromJson(language, system, 'critical', 'bludgeoning');
+        this.loadEffectsFromJson(language, system, 'critical', 'piercing');
+        this.loadEffectsFromJson(language, system, 'critical', 'magical');
+        this.loadEffectsFromJson(language, system, 'fumble', 'melee');
+        this.loadEffectsFromJson(language, system, 'fumble', 'ranged');
+        this.loadEffectsFromJson(language, system, 'fumble', 'natural');
+        this.loadEffectsFromJson(language, system, 'fumble', 'magical');
       });
     });
   }
 
-  private loadFromJson(language: string, system: string, type: string, subtype: string) {
-    this.http.get('assets/json/effects/' + language + '/' + system + '/' + type + '/' + subtype + '.json')
+  private loadRuletipsFromJson(language: string, system: string) {
+    this.http.get('assets/json/' + language + '/' + system + '/ruletips.json')
+      .subscribe(data => {
+        this.ruletips[language][system] = data.json();
+      });
+  }
+
+  private loadEffectsFromJson(language: string, system: string, type: string, subtype: string) {
+    this.http.get('assets/json/' + language + '/' + system + '/' + type + '/' + subtype + '.json')
       .subscribe(data => {
         this.effectsData[language][system][type][subtype] = data.json();
       });
+  }
+
+  getRuletip(ruletipTag: string) {
+    return this.ruletips[this.currentLanguage][this.currentSystem][ruletipTag];
   }
 
   getDrawnEffects() {
@@ -54,7 +69,7 @@ export class EffectsService {
     let effectIndex = Math.floor(Math.random() * effects.length);
     let drawnEffect = effects[effectIndex];
 
-    let effectText = drawnEffect.text.replace(this.tooltipPattern, this.tooltipHTML);
+    let effectText = drawnEffect.text.replace(this.ruletipPattern, this.ruletipHTML);
     let model = new EffectModel(type, subtype, drawnEffect.title, effectText);
     this.drawnEffects.push(model);
   }

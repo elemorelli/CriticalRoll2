@@ -1,0 +1,170 @@
+{
+  "OBJECT-DAMAGE": {
+    "title": "Damaging an object",
+    "text": "Subtract the object hardness from the damage dealt. Only the excess reduces the object's hit points.<ul><li>Each +1 enchantment in the magic weapon, shield or armor affected, adds +2 to the hardness and +10 hit points</li><li>An object damaged more than half of its hit points in gains the Broken condition</li><li>A broken weapon suffers -2 to attack rolls and only can score critical hits with a natural 20 with a x2 modifier</li><li>A broken armor or shield, suffers a reduction of half ot its AC bonus and has the double of ACP</li><li>An object that is reduced to 0 hit points is destroyed and can only be repaired with Craft or certain spells like <em>Mending</em> or <em>Make whole</em></li><li>Magic items get a saving throw bonus of 2 + half of its caster level</li></ul>"
+  },
+  "NONLETHAL-DAMAGE": {
+    "title": "Nonlethal damage",
+    "text": "The character suffered damage that does not threaten its life. Do not deduct this damage from the current hit points, just track it separately.<ul><li>When the nonlethal damage is equal to the current hit points, the character is staggered</li><li>When it exceeds, the character its unconscious</li><li>Nonlethal damage heals at the rate of 1 hit point per hour per character level</li><li>When a spell or ability cures hit point damage, it also removes an equal amount of nonlethal damage</li></ul>"
+  },
+  "ABILITY-DAMAGE": {
+    "title": "Ability damage",
+    "text": "Damage to ability scores is usually healed at the rate of 1 per day to each damaged ability score or spells as <em>Lesser Restoration</em>."
+  },
+  "ABILITY-DRAIN": {
+    "title": "Ability drain",
+    "text": "Ability drain can only be healed through the use of spells such as <em>Restoration</em>."
+  },
+  "ABILITY-STR": {
+    "title": "Strength reduction",
+    "text": "The character takes penalties on:<ul><li>Climb and Swim checks</li><li>Melee attack rolls</li><li>Weapon damage rolls</li><li>CMB (if you are Small or larger)</li><li>CMD</li><li>Carrying capacity</li></ul>"
+  },
+  "ABILITY-DEX": {
+    "title": "Dexterity reduction",
+    "text": "The character takes penalties on:<ul><li>Acrobatics, Disable Device, Escape Artist, Fly, Ride, Sleight of Hand and Stealth checks</li><li>Ranged attack rolls</li><li>Initiative checks</li><li>Reflex saving throws</li><li>Armor Class</li><li>CMB (if you are Tiny or smaller)</li><li>CMD</li></ul>"
+  },
+  "ABILITY-CON": {
+    "title": "Constitution reduction",
+    "text": "The character takes penalties on:<ul><li>Fortitude saving throws</li><li>Total Hit Points for each Hit Dice</li></ul>A character with a Constitution score of 0 is dead."
+  },
+  "ABILITY-INT": {
+    "title": "Intelligence reduction",
+    "text": "The character takes penalties on:<ul><li>Appraise, Craft, Knowledge, Linguistics and Spellcraft checks</li><li>Spell DCs based on Intelligence</li></ul>"
+  },
+  "ABILITY-WIS": {
+    "title": "Wisdom reduction",
+    "text": "The character takes penalties on:<ul><li>Heal, Perception, Profession, Sense Motive and Survival checks</li><li>Will saving throws</li><li>Spell DCs based on Wisdom</li></ul>"
+  },
+  "ABILITY-CHA": {
+    "title": "Charisma reduction",
+    "text": "The character takes penalties on:<ul><li>Bluff, Diplomacy, Disguise, Handle Animal, Intimidate, Perform and Use Magic Device checks</li><li>Spell DCs based off Charisma</li><li>DC to resist channeled energy</li></ul>"
+  },
+  "SAVE-CRITICAL": {
+    "title": "Critical hit DC",
+    "text": "Use the confirmation roll as the save DC."
+  },
+  "SAVE-FUMBLE": {
+    "title": "Fumble DC",
+    "text": "Use the target's armor as the save DC."
+  },
+  "UNTIL-HEALED": {
+    "title": "Until healed",
+    "text": "This refers to the bleed effect or additional damage done, not the weapon or spell damage."
+  },
+  "STATUS-BLEED": {
+    "title": "Bleed",
+    "text": "The character takes the listed amount of damage at the beginning of its turn.<ul><li>Bleeding can be stopped by a DC 15 Heal check or through any spell that cures hit points (even if the bleed is ability damage)</li><li>Bleed effects of the same kind of damage do not stack with each other, it takes the worse effect</li><li>Bleed expressed as a die roll is rerolled each round</li></ul>"
+  },
+  "STATUS-BLINDED": {
+    "title": "Blinded",
+    "text": "The character cannot see.<ul><li>Takes a -2 penalty to Armor Class</li><li>Loses its Dexterity bonus to AC (if any)</li><li>Takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks</li><li>All checks and activities that rely on vision automatically fail</li><li>All opponents are considered to have total concealment (50% miss chance) against the blinded character</li><li>Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed or fall prone</li></ul>Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them."
+  },
+  "STATUS-CONFUSED": {
+    "title": "Confused",
+    "text": "The character can't act normally and treat all creatures as enemies.<ul><li>Casting a beneficial touch spell on it requires a melee touch attack</li><li>If it's attacked, it returns the attack until that creature is dead or out of sight</li><li>It will only make attacks of opportunity against The character is currently attacking</li></ul>Each round, roll 1d4:<ol><li>1: Act normally</li><li>2: Do nothing but babble incoherently</li><li>3: Deal 1d8 + Str damage to self with item in hand</li><li>4: Attack nearest creature (Ignoring familiar)</li></ol>"
+  },
+  "STATUS-DAZED": {
+    "title": "Dazed",
+    "text": "The character takes no actions."
+  },
+  "STATUS-DAZZLED": {
+    "title": "Dazzled",
+    "text": "The character cannot see well.<ul><li>Takes -1 on attack rolls</li><li>Takes -1 on Perception checks based on sight</li></ul>"
+  },
+  "STATUS-DEAFENED": {
+    "title": "Deafened",
+    "text": "The character cannot hear.<ul><li>Takes -4 on initiative checks</li><li>Fails any Perception checks based on sound</li><li>Takes a -4 penalty on opposed Perception checks</li><li>Gains 20% chance of spell failure when casting spells with verbal components</li></ul>Characters who remain deafened for a long time grow accustomed to these drawbacks and can overcome some of them."
+  },
+  "STATUS-DYING": {
+    "title": "Dying",
+    "text": "The character is unconscious and near death.<ul><li>Has negative hit points and is not stable</li><li>Can take no actions as being unconscious</li><li>On it's turn, the character must make a DC 10 Constitution check to become stable with a penalty equal to his negative hit points</li><li>A natural 20 on this check is an automatic success</li><li>If the character fails this check, he loses 1 hit point</li></ul>If a dying character has an amount of negative hit points equal to its Constitution score, it dies."
+  },
+  "STATUS-ENTANGLED": {
+    "title": "Entangled",
+    "text": "The character has its movement restricted.<ul><li>Moves at half speed</li><li>Can't run or charge</li><li>Takes a -2 on attack rolls</li><li>Takes -4 Dex</li><li>Casting a spell requires a concentration check (DC 15 + spell level) or lose the spell</li></ul>"
+  },
+  "STATUS-EXHAUSTED": {
+    "title": "Exhausted",
+    "text": "The character is depleted of energy.<ul><li>Moves at half speed</li><li>Can't run or charge</li><li>Takes -6 to Str and Dex</li></ul>After 1 hour of complete rest, an exhausted character becomes fatigued."
+  },
+  "STATUS-FATIGUED": {
+    "title": "Fatigued",
+    "text": "The character is weary.<ul><li>Can't run or charge</li><li>Takes -2 to Str and Dex</li></ul>After 8 hours of complete rest, fatigued characters are no longer fatigued. Being fatigued again causes to become exhausted."
+  },
+  "STATUS-FLAT-FOOTED": {
+    "title": "Flat-footed",
+    "text": "The character is not aware of its surroundings.<ul><li>It's unable to react normally</li><li>Loses the Dex bonus to AC and CMD</li><li>Cannot make attacks of opportunity</li></ul>"
+  },
+  "STATUS-FRIGHTENED": {
+    "title": "Frightened",
+    "text": "The character is filled with fear.<ul><li>Tries to flee from the source of its fears as best it can, using special abilities or spells if needed</li><li>If it's unable to flee, it may fight</li><li>Takes -2 on attack rolls</li><li>Takes -2 on saving throws</li><li>Takes -2 on skill checks</li><li>Takes -2 on ability checks</li></ul>"
+  },
+  "STATUS-HELPLESS": {
+    "title": "Helpless",
+    "text": "The character is completely at an opponent's mercy.<ul><li>Treat as having a Dexterity of 0 (–5 modifier)</li><li>Melee attacks against a helpless target get a +4 bonus as being prone</li><li>Ranged attacks get no special bonus</li><li>Can be target of sneak attacks</li></ul><hr>As a full-round action, an enemy can use a melee weapon or a bow or crossbow (provided he is adjacent to the target) to deliver a coup de grace<ul><li>The attacker automatically hits and scores a critical hit</li><li>If the victim survives, he must make a Fortitude save (DC 10 + damage dealt) or die</li><li>Delivering a coup de grace provokes attacks of opportunity</li></ul>Creatures that are immune to critical hits do not take critical damage, nor do they need to make Fortitude saves to avoid being killed by a coup de grace."
+  },
+  "STATUS-INCORPOREAL": {
+    "title": "Incorporeal",
+    "text": "The character doesn't have a physical body.<ul><li>Gains immunity to nonmagical attack</li><li>Takes only 50% from magic weapons, spells, spell-like and supernatural effects</li><li>Takes full damage from other incorporeal creatures and force effects</li></ul>"
+  },
+  "STATUS-INVISIBLE": {
+    "title": "Invisible",
+    "text": "The character is visually undetectable, including to darkvision.<ul><li>Gains +2 on attack rolls against sighted opponents</li><li>Ignores Dex bonuses to AC</li><li>Ignores extra damage from being a ranger's favored enemy and from sneak attacks</li><li>Gains 50% miss chance from total concealment. Big and slow creatures may have a lower miss chance</li><li>Its presence can be noticed within 30 feet with a DC 20 Perception check</li><li>Its current square can be pinpointed with a DC 40 Perception check</li><li>Characters can make a touch attack with his hands or a weapon into two adjacent 5-foot squares with a 50% miss chance using a standard action to check if there's an invisible creature</li></ul>See the ability details for more info and modifiers."
+  },
+  "STATUS-NAUSEATED": {
+    "title": "Nauseated",
+    "text": "The character is experiencing stomach distress.<ul><li>Is unable to attack, cast spells, concentrate on spells, or do anything else requiring attention</li><li>Can only take a single move action per turn</li></ul>"
+  },
+  "STATUS-NEGATIVE-LEVEL": {
+    "title": "Negative level",
+    "text": "The character was drained from its life and energy. For each negative level:<ul><li>Takes -1 on ability checks</li><li>Takes -1 on attack rolls</li><li>Takes -1 on CMB and CMD</li><li>Takes -1 on skill checks</li><li>Takes -1 saving throws</li><li>Loses 5 total hit points</li><li>It's treated as one level lower for every variable that depends on level</li><li>Spellcasters do not lose any spell or slot</li><li>Creatures with temporary negative levels recieve a new sacing throw each day to end the effect at the same DC</li><li>Permanent negative levels can only be removed with <em>Restoration</em> and they remain after a dead creature is brought back to life</li></ul>"
+  },
+  "STATUS-PANICKED": {
+    "title": "Panicked",
+    "text": "The character is deeply terrified.<ul><li>Drops anything held</li><li>Flees at top speed from the source of its fear and any other dangers it encounters along a random path using special abilities or spells if needed</li><li>Can't take any other actions</li><li>Takes a –2 penalty on all saving throws</li><li>Takes a –2 penalty on skill checks</li><li>Takes a –2 penalty on ability checks</li><li>If it's unable to flee cowers and does not attack, using the total defense action in combat</li></ul>"
+  },
+  "STATUS-PARALYZED": {
+    "title": "Paralyzed",
+    "text": "The character is frozen in place and unable to move or act.<ul><li>Has effective Dexterity and Strength scores of 0 (-5 modifier) and is helpless</li><li>Can take purely mental actions</li><li>If it was flying using wings, it cannot flap its wings and falls</li><li>Can't swim and may drown</li><li>A friendly or enemy creature can move through its space, counting as moving through 2 squares</li></ul>"
+  },
+  "STATUS-PETRIFIED": {
+    "title": "Petrified",
+    "text": "The character was converted to stone.<ul><li>It is considered unconscious</li><li>If it's cracked or broken and it's returned to flesh without mending, it takes permanent hit point loss and/or debilitation</li></ul>"
+  },
+  "STATUS-PRONE": {
+    "title": "Prone",
+    "text": "The character is lying on the ground.<ul><li>Take -4 on melee attacks</li><li>Can't use ranged weapons except crossbows and firearms</li><li>Gains +4 AC against ranged attacks</li><li>Takes -4 AC against melee attacks</li><li>Standing up is a move action that provokes an attack of opportunity</li></ul>"
+  },
+  "STATUS-SHAKEN": {
+    "title": "Shaken",
+    "text": "The character is psychologically disturbed.<ul><li>Takes -2 on attack rolls</li><li>Takes -2 on saving throws</li><li>Takes -2 on skill checks</li><li>Takes -2 on ability checks</li></ul>"
+  },
+  "STATUS-SICKENED": {
+    "title": "Sickened",
+    "text": "The character is feeling ill.<ul><li>Takes -2 on attack rolls</li><li>Takes -2 on weapon damage rolls</li><li>Takes -2 on saving throws</li><li>Takes -2 on skill checks</li><li>Takes -2 on ability checks</li></ul>"
+  },
+  "STATUS-STABLE": {
+    "title": "Stable",
+    "text": "The character is no longer dying but still unconscious.<ul><li>If it has become stable because of any aid (Heal check or Magical Healing) it no longer loses hit points. Each hour it can make a DC 10 Constitution check to become conscious and disabled (even though his hit points are still negative)</li><li>If it has become stable on his own, it still has a chance of losing hit points. Each hour it can make a DC 10 Constitution check to become conscious and disabled (even though his hit points are still negative). Otherwise, he loses 1 hit point</li></ul>"
+  },
+  "STATUS-STAGGERED": {
+    "title": "Staggered",
+    "text": "The character is stupefied.<ul><li>Can take only a single move or standard action each round</li><li>Can't take full round actions</li><li>Can take free, swift and immediate actions</li></ul>"
+  },
+  "STATUS-STUNNED": {
+    "title": "Stunned",
+    "text": "The character has mental numbness.<ul><li>Drops everything held</li><li>Can't take actions</li><li>Takes a -2 penalty to AC</li><li>Loses the Dex bonus to AC</li><li>Attackers receive +4 on attack rolls to perform combat maneuvers against a stunned opponent</li></ul>"
+  },
+  "STATUS-UNCONSCIOUS": {
+    "title": "Unconscious",
+    "text": "The character is knocked out and helpless."
+  },
+  "DESCRIPTION-ROD-OF-WONDER": {
+    "title": "Rod of Wonder",
+    "text": "A rod of wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Roll a d100 and apply its effects:<ul><li>01–05: <em>Slow</em> target for 10 rounds (Will DC 15 negates).</li><li>06–10: <em>Faerie fire</em> surrounds the target.</li><li>11–15: Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).</li><li>16–20: <em>Gust of wind</em>, but at windstorm force (Fortitude DC 14 negates).</li><li>21–25: Wielder learns target's surface thoughts (as with <em>detect thoughts</em>) for 1d4 rounds (no save).</li><li>26–30: <em>Stinking cloud</em> appears at 30-ft. range (Fortitude DC 15 negates).</li><li>31–33: Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.</li><li>34–36: <em>Summon</em> an animal—a rhino (01–25 on d%), elephant (26–50), or mouse (51–100).</li><li>37–46: <em>Lightning bolt</em> (70 ft. long, 5 ft. wide), 6d6 damage (Reflex DC 15 half).</li><li>47–49: A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. (Reflex DC 14 negates).</li><li>50–53: <em>Enlarge person</em> on target if within 60 ft. of rod (Fortitude DC 13 negates).</li><li>54–58: <em>Darkness</em>, 30-ft.-diameter hemisphere, centered 30 ft. away from rod.</li><li>59–62: Grass grows in 160-square-ft. area before the rod, or grass existing there grows to 10 times normal size.</li><li>63–65: Turn ethereal any nonliving object of up to 1000 lbs. mass and up to 30 cubic ft. in size.</li><li>66–69: <em>Reduce</em> wielder two size categories (no save) for 1 day.</li><li>70–79: <em>Fireball</em> at target or 100 ft. straight ahead, 6d6 damage (Reflex DC 15 half).</li><li>80–84: <em>Invisibility</em> covers rod wielder.</li><li>85–87: Leaves grow from target if within 60 ft. of rod. These last 24 hours.</li><li>88–90: 10–40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: roll 5d4 for the number of hits and divide them among the available targets.</li><li>91–95: Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are blinded for 1d6 rounds (Fortitude DC 15 negates).</li><li>96–97: Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).</li><li>98–100: <em>Flesh to stone</em> (or stone to <em>flesh if target</em> is stone already) if target is within 60 ft. (Fortitude DC 18 negates).</li></ul>"
+  },
+  "DESCRIPTION-ITEM-DRAWBACKS": {
+    "title": "Item drawbacks",
+    "text": "Items with drawbacks are usually still beneficial to the possessor but carry some negative aspect. Although sometimes drawbacks occur only when the item is used (or held, in the case of some weapons), usually the drawback remains with the character for as long as she has the item. Unless otherwise indicated, drawbacks remain in effect as long as the item is possessed. Roll a d100:<ul><li>01–04: Character's hair grows 1 inch longer every hour.</li><li>05–09: Character either shrinks 6 inches (01–50 on d%) or grows that much taller (51–100). Only happens once.</li><li>10–13: Temperature around item is 10° F cooler than normal.</li><li>14–17: Temperature around item is 10° F warmer than normal.</li><li>18–21: Character's hair color changes.</li><li>22–25: Character's skin color changes.</li><li>26–29: Character now bears some identifying mark (tattoo, weird glow, or the like).</li><li>30–32: Character's gender changes.</li><li>33–34: Character's race or kind changes.</li><li>35 Character is afflicted with a random disease that cannot be cured.</li><li>36–39: Item continually emits a disturbing sound (moaning, weeping, screaming, cursing, insults).</li><li>40 Item looks ridiculous (garishly colored, silly shape, glows bright pink).</li><li>41–45: Character becomes selfishly possessive.</li><li>46–49: Character becomes paranoid about losing the item and afraid of damage occurring to it.</li><li>50–51: Character's alignment changes.</li><li>52–54: Character must attack nearest creature (5% chance [01–05 on d%] each day).</li><li>55–57: Character is stunned for 1d4 rounds once item function is finished (or randomly, 1/day).</li><li>58–60: Character's vision is blurry (–2 penalty on attack rolls, saves, and skill checks requiring vision).</li><li>61–64: Character gains one negative level.</li><li>65 Character gains two negative levels.</li><li>66–70: Character must make a Will save each day or take 1 point of Intelligence damage.</li><li>71–75: Character must make a Will save each day or take 1 point of Wisdom damage.</li><li>76–80: Character must make a Will save each day or take 1 point of Charisma damage.</li><li>81–85: Character must make a Fortitude save each day or take 1 point of Constitution damage.</li><li>86–90: Character must make a Fortitude save each day or take 1 point of Strength damage.</li><li>91–95: Character must make a Fortitude save each day or take 1 point of Dexterity damage.</li><li>96: Character is polymorphed into a specific creature (5% chance [01–05 on d%] each day).</li><li>97: Character cannot cast arcane spells.</li><li>98: Character cannot cast divine spells.</li><li>99: Character cannot cast any spells.</li><li>100: Either pick one of the above that's appropriate or create a drawback specifically for that item.</li></ul>"
+  }
+}

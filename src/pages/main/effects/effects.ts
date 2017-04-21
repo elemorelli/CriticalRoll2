@@ -16,16 +16,18 @@ export class Effects {
 
   ngOnInit() {
     (<any>window).angularComponentRef = {
-      displayTooltip: (value) => this.displayTooltip(value),
+      displayRuletip: (value) => this.displayRuletip(value),
       component: this
     };
   }
 
-  displayTooltip(data) {
+  displayRuletip(ruletipTag) {
+
+    let ruletip = this.effectsService.getRuletip(ruletipTag);
 
     this.alertCtrl.create({
-      title: 'Title',
-      message: 'Text'
+      title: ruletip.title,
+      message: ruletip.text
     }).present();
   }
 }
