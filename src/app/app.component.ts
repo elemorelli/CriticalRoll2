@@ -9,12 +9,12 @@ import {GlossaryPage} from '../pages/glossary/glossary';
 import {SettingsPage} from '../pages/settings/settings';
 import {LicensePage} from '../pages/license/license';
 
-
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild(Nav) nav: Nav;
+  @ViewChild(Nav)
+  nav: Nav;
 
   rootPage = MainPage;
   pages: Array<{ title: string, component: any }>;
@@ -36,17 +36,13 @@ export class MyApp {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
   }
 
   openPage(page) {
-    // close the menu when clicking a link from the menu
     this.menu.close();
-    // navigate to the new page if it is not the current page
     this.nav.setRoot(page.component);
   }
 }
