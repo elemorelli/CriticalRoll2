@@ -15,18 +15,18 @@ export class SettingsPage {
   public system: string;
 
   constructor(public navCtrl: NavController, private settingsService: SettingsService) {
-    this.availableLanguages = settingsService.getAvailableLanguages();
-    this.availableSystems = settingsService.getAvailableSystems();
-    this.language = settingsService.getCurrentLanguage();
-    this.system = settingsService.getCurrentSystem();
+    this.availableLanguages = settingsService.getLanguagesList();
+    this.availableSystems = settingsService.getSystemsList();
+    this.language = settingsService.getLanguage();
+    this.system = settingsService.getSystem();
   }
 
   setSelectedLanguage() {
-    this.settingsService.setCurrentLanguage(this.language);
+    this.settingsService.setLanguage(this.language);
   }
 
   setSelectedSystem() {
-    this.settingsService.setCurrentSystem(this.system);
+    this.settingsService.setSystem(this.system);
   }
 
 

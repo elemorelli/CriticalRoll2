@@ -25,42 +25,42 @@ export class SettingsService {
           if (language != null) {
             this.currentLanguage = language;
           } else {
-            this.setCurrentLanguage(this.availableLanguages[0]);
+            this.setLanguage(this.availableLanguages[0]);
           }
         });
         this.storage.get('system').then((system) => {
           if (system != null) {
             this.currentSystem = system;
           } else {
-            this.setCurrentSystem(this.availableSystems[0]);
+            this.setSystem(this.availableSystems[0]);
           }
         })
       }
     );
   }
 
-  getAvailableLanguages() {
+  getLanguagesList() {
     return this.availableLanguages;
   }
 
-  getCurrentLanguage() {
+  getLanguage() {
     return this.currentLanguage;
   }
 
-  setCurrentLanguage(language: string) {
+  setLanguage(language: string) {
     this.currentLanguage = language;
     this.storage.set('language', language);
   }
 
-  getAvailableSystems() {
+  getSystemsList() {
     return this.availableSystems;
   }
 
-  getCurrentSystem() {
+  getSystem() {
     return this.currentSystem;
   }
 
-  setCurrentSystem(system: string) {
+  setSystem(system: string) {
     this.currentSystem = system;
     this.storage.set('system', system);
   }

@@ -1,12 +1,10 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/map";
+import {SettingsService} from "./settings-service";
 
 @Injectable()
 export class EffectsService {
-
-  private currentLanguage: string = 'en';
-  private currentSystem: string = 'pfrpg';
 
   private drawnEffects: any = [];
 
@@ -17,7 +15,7 @@ export class EffectsService {
   private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
   private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;)'>$2</a>";
 
-  constructor(private http: Http) {
+  constructor(private http: Http, private settingsService: SettingsService) {
 
     this.languanges.forEach(language => {
       this.effectsData[language] = {};
@@ -62,35 +60,35 @@ export class EffectsService {
   }
 
   drawCriticalSlashingEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'critical', 'slashing');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'slashing');
   }
 
   drawCriticalBludgeoningEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'critical', 'bludgeoning');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'bludgeoning');
   }
 
   drawCriticalPiercingEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'critical', 'piercing');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'piercing');
   }
 
   drawCriticalMagicalEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'critical', 'magical');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'magical');
   }
 
   drawFumbleMeleeEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'fumble', 'melee');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'melee');
   }
 
   drawFumbleRangedEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'fumble', 'ranged');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'ranged');
   }
 
   drawFumbleNaturalEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'fumble', 'natural');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'natural');
   }
 
   drawFumbleMagicalEffect() {
-    this.drawEffect(this.currentLanguage, this.currentSystem, 'fumble', 'magical');
+    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'magical');
   }
 
   clearEffects() {

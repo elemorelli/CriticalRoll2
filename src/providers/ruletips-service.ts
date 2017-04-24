@@ -1,19 +1,17 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/map";
+import {SettingsService} from "./settings-service";
 
 @Injectable()
 export class RuletipsService {
-
-  private currentLanguage: string = 'en';
-  private currentSystem: string = 'pfrpg';
 
   private languanges: any = ['en', 'es'];
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
   private ruletips: object = {};
 
-  constructor(private http: Http) {
+  constructor(private http: Http, private settingsService: SettingsService) {
 
     this.languanges.forEach(language => {
       this.ruletips[language] = {};
@@ -33,12 +31,11 @@ export class RuletipsService {
   }
 
   getRuletip(ruletipTag: string) {
-    return this.ruletips[this.currentLanguage][this.currentSystem][ruletipTag];
+    return this.ruletips[this.settingsService.getLanguage()][this.settingsService.getSystem()][ruletipTag];
   }
 
   getRuletipsList() {
-    let ruletips = this.ruletips[this.currentLanguage][this.currentSystem];
+    let ruletips = this.ruletips[this.settingsService.getLanguage()][this.settingsService.getSystem()];
     return Object.keys(ruletips).map(key => ruletips[key]);
   }
-
 }
