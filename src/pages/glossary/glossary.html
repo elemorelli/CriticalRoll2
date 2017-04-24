@@ -9,4 +9,13 @@
 
 <ion-content padding>
   <h3>Glossary</h3>
+
+  <ion-list>
+    <button ion-item
+            *ngFor="let ruletip of ruletips"
+            (click)="displayRuletip(ruletip.title, ruletip.text)">
+      {{ruletip.title}}
+    </button>
+  </ion-list>
+
 </ion-content>

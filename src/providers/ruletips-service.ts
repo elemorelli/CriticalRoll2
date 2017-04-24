@@ -36,4 +36,9 @@ export class RuletipsService {
     return this.ruletips[this.currentLanguage][this.currentSystem][ruletipTag];
   }
 
+  getRuletipsList() {
+    let ruletips = this.ruletips[this.currentLanguage][this.currentSystem];
+    return Object.keys(ruletips).map(key => ruletips[key]);
+  }
+
 }

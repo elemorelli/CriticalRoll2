@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
-import {NavController} from "ionic-angular";
+import {AlertController, NavController} from "ionic-angular";
+import {RuletipsService} from "../../providers/ruletips-service";
 
 @Component({
   selector: 'page-glossary',
@@ -7,6 +8,18 @@ import {NavController} from "ionic-angular";
 })
 export class GlossaryPage {
 
-  constructor(public navCtrl: NavController) {
+  ruletips: any;
+
+  constructor(public navCtrl: NavController, private ruletipsService: RuletipsService, private alertCtrl: AlertController) {
+    this.ruletips = ruletipsService.getRuletipsList();
+  }
+
+  displayRuletip(title: string, text: string) {
+
+    this.alertCtrl.create({
+      title: title,
+      message: text,
+      cssClass: 'ruletip'
+    }).present();
   }
 }
