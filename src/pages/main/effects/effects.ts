@@ -1,6 +1,7 @@
 import {Component} from "@angular/core";
 import {EffectsService} from "../../../providers/effects-service";
 import {AlertController} from "ionic-angular";
+import {RuletipsService} from "../../../providers/ruletips-service";
 
 @Component({
   selector: 'effects',
@@ -10,7 +11,7 @@ export class Effects {
 
   public effects: any;
 
-  constructor(public effectsService: EffectsService, public alertCtrl: AlertController) {
+  constructor(private effectsService: EffectsService, private ruletipsService: RuletipsService, private alertCtrl: AlertController) {
     this.effects = effectsService.getDrawnEffects();
   }
 
@@ -23,7 +24,7 @@ export class Effects {
 
   displayRuletip(ruletipTag) {
 
-    let ruletip = this.effectsService.getRuletip(ruletipTag);
+    let ruletip = this.ruletipsService.getRuletip(ruletipTag);
 
     this.alertCtrl.create({
       title: ruletip.title,

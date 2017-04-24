@@ -14,7 +14,6 @@ export class EffectsService {
   private languanges: any = ['en', 'es'];
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
-  private ruletips: object = {};
   private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
   private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;)'>$2</a>";
 
@@ -22,13 +21,10 @@ export class EffectsService {
 
     this.languanges.forEach(language => {
       this.effectsData[language] = {};
-      this.ruletips[language] = {};
       this.systems.forEach(system => {
         this.effectsData[language][system] = [];
-        this.ruletips[language][system] = {};
         this.effectsData[language][system]['critical'] = {};
         this.effectsData[language][system]['fumble'] = {};
-        this.loadRuletipsFromJson(language, system);
         this.loadEffectsFromJson(language, system, 'critical', 'slashing');
         this.loadEffectsFromJson(language, system, 'critical', 'bludgeoning');
         this.loadEffectsFromJson(language, system, 'critical', 'piercing');
@@ -41,22 +37,11 @@ export class EffectsService {
     });
   }
 
-  private loadRuletipsFromJson(language: string, system: string) {
-    this.http.get('assets/json/' + language + '/' + system + '/ruletips.json')
-      .subscribe(data => {
-        this.ruletips[language][system] = data.json();
-      });
-  }
-
   private loadEffectsFromJson(language: string, system: string, type: string, subtype: string) {
     this.http.get('assets/json/' + language + '/' + system + '/' + type + '/' + subtype + '.json')
       .subscribe(data => {
         this.effectsData[language][system][type][subtype] = data.json();
       });
-  }
-
-  getRuletip(ruletipTag: string) {
-    return this.ruletips[this.currentLanguage][this.currentSystem][ruletipTag];
   }
 
   getDrawnEffects() {

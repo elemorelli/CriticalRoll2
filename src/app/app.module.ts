@@ -14,6 +14,7 @@ import {LicensePage} from "../pages/license/license";
 import {StatusBar} from "@ionic-native/status-bar";
 import {SplashScreen} from "@ionic-native/splash-screen";
 import {EffectsService} from "../providers/effects-service";
+import {RuletipsService} from "../providers/ruletips-service";
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {EffectsService} from "../providers/effects-service";
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    EffectsService
+    EffectsService,
+    RuletipsService
   ]
 })
 export class AppModule {
