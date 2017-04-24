@@ -7,8 +7,7 @@ import {Effects} from "./effects/effects";
 @Component({
   selector: 'page-main',
   templateUrl: 'main.html',
-  entryComponents: [Buttons, Effects],
-  providers: [EffectsService]
+  entryComponents: [Buttons, Effects]
 })
 export class MainPage {
 

@@ -1,13 +1,14 @@
-import {Component, ViewChild} from '@angular/core';
-import {MenuController, Nav, Platform} from 'ionic-angular';
-import {StatusBar} from '@ionic-native/status-bar';
-import {SplashScreen} from '@ionic-native/splash-screen';
+import {Component, ViewChild} from "@angular/core";
+import {MenuController, Nav, Platform} from "ionic-angular";
+import {StatusBar} from "@ionic-native/status-bar";
+import {SplashScreen} from "@ionic-native/splash-screen";
 
-import {MainPage} from '../pages/main/main';
-import {HelpPage} from '../pages/help/help';
-import {GlossaryPage} from '../pages/glossary/glossary';
-import {SettingsPage} from '../pages/settings/settings';
-import {LicensePage} from '../pages/license/license';
+import {MainPage} from "../pages/main/main";
+import {HelpPage} from "../pages/help/help";
+import {GlossaryPage} from "../pages/glossary/glossary";
+import {SettingsPage} from "../pages/settings/settings";
+import {LicensePage} from "../pages/license/license";
+import {SettingsService} from "../providers/settings-service";
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +23,8 @@ export class MyApp {
   constructor(public platform: Platform,
               public menu: MenuController,
               public statusBar: StatusBar,
-              public splashScreen: SplashScreen) {
+              public splashScreen: SplashScreen,
+              public settingsService: SettingsService) {
     this.initializeApp();
 
     this.pages = [

@@ -8,5 +8,19 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Settings</h3>
+
+  <ion-list radio-group [(ngModel)]="language">
+    <ion-item *ngFor="let language of availableLanguages">
+      <ion-label>{{language.name}}</ion-label>
+      <ion-radio value="{{language.tag}}" (ionSelect)="setSelectedLanguage()"></ion-radio>
+    </ion-item>
+  </ion-list>
+
+  <ion-list radio-group [(ngModel)]="system">
+    <ion-item *ngFor="let system of availableSystems">
+      <ion-label>{{system.name}}</ion-label>
+      <ion-radio value="{{system.tag}}" (ionSelect)="setSelectedSystem()"></ion-radio>
+    </ion-item>
+  </ion-list>
+
 </ion-content>

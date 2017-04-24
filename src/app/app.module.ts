@@ -15,6 +15,8 @@ import {StatusBar} from "@ionic-native/status-bar";
 import {SplashScreen} from "@ionic-native/splash-screen";
 import {EffectsService} from "../providers/effects-service";
 import {RuletipsService} from "../providers/ruletips-service";
+import {IonicStorageModule} from "@ionic/storage";
+import {SettingsService} from "../providers/settings-service";
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import {RuletipsService} from "../providers/ruletips-service";
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -47,7 +50,8 @@ import {RuletipsService} from "../providers/ruletips-service";
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     EffectsService,
-    RuletipsService
+    RuletipsService,
+    SettingsService
   ]
 })
 export class AppModule {

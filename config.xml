@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gemorelli.criticalroll" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
   <name>CriticalRoll</name>
   <description>An app for Critical hits and Fumble effects in Tabletop RPGs as Pathfinder and D&amp;D.</description>
@@ -36,4 +36,5 @@
   <plugin name="cordova-plugin-statusbar" spec="2.2.1"/>
   <plugin name="cordova-plugin-device" spec="1.1.4"/>
   <plugin name="cordova-plugin-splashscreen" spec="~4.0.1"/>
+  <plugin name="cordova-sqlite-storage" spec="~2.0.3"/>
 </widget>
