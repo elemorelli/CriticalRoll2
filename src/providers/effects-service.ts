@@ -15,7 +15,7 @@ export class EffectsService {
   private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
   private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;)'>$2</a>";
 
-  constructor(private http: Http, private settingsService: SettingsService) {
+  constructor(private http: Http, private settings: SettingsService) {
 
     this.languanges.forEach(language => {
       this.effectsData[language] = {};
@@ -23,19 +23,19 @@ export class EffectsService {
         this.effectsData[language][system] = [];
         this.effectsData[language][system]['critical'] = {};
         this.effectsData[language][system]['fumble'] = {};
-        this.loadEffectsFromJson(language, system, 'critical', 'slashing');
-        this.loadEffectsFromJson(language, system, 'critical', 'bludgeoning');
-        this.loadEffectsFromJson(language, system, 'critical', 'piercing');
-        this.loadEffectsFromJson(language, system, 'critical', 'magical');
-        this.loadEffectsFromJson(language, system, 'fumble', 'melee');
-        this.loadEffectsFromJson(language, system, 'fumble', 'ranged');
-        this.loadEffectsFromJson(language, system, 'fumble', 'natural');
-        this.loadEffectsFromJson(language, system, 'fumble', 'magical');
+        this.loadFromJson(language, system, 'critical', 'slashing');
+        this.loadFromJson(language, system, 'critical', 'bludgeoning');
+        this.loadFromJson(language, system, 'critical', 'piercing');
+        this.loadFromJson(language, system, 'critical', 'magical');
+        this.loadFromJson(language, system, 'fumble', 'melee');
+        this.loadFromJson(language, system, 'fumble', 'ranged');
+        this.loadFromJson(language, system, 'fumble', 'natural');
+        this.loadFromJson(language, system, 'fumble', 'magical');
       });
     });
   }
 
-  private loadEffectsFromJson(language: string, system: string, type: string, subtype: string) {
+  private loadFromJson(language: string, system: string, type: string, subtype: string) {
     this.http.get('assets/json/' + language + '/' + system + '/' + type + '/' + subtype + '.json')
       .subscribe(data => {
         this.effectsData[language][system][type][subtype] = data.json();
@@ -60,38 +60,38 @@ export class EffectsService {
   }
 
   drawCriticalSlashingEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'slashing');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'critical', 'slashing');
   }
 
   drawCriticalBludgeoningEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'bludgeoning');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'critical', 'bludgeoning');
   }
 
   drawCriticalPiercingEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'piercing');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'critical', 'piercing');
   }
 
   drawCriticalMagicalEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'critical', 'magical');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'critical', 'magical');
   }
 
   drawFumbleMeleeEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'melee');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'fumble', 'melee');
   }
 
   drawFumbleRangedEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'ranged');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'fumble', 'ranged');
   }
 
   drawFumbleNaturalEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'natural');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'fumble', 'natural');
   }
 
   drawFumbleMagicalEffect() {
-    this.drawEffect(this.settingsService.getLanguage(), this.settingsService.getSystem(), 'fumble', 'magical');
+    this.drawEffect(this.settings.getLanguage(), this.settings.getSystem(), 'fumble', 'magical');
   }
 
-  clearEffects() {
+  clearAll() {
     this.drawnEffects.splice(0, this.drawnEffects.length);
   }
 }

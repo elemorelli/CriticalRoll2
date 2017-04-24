@@ -14,11 +14,11 @@ export class MainPage {
   @ViewChild(Content)
   content: Content;
 
-  constructor(public navCtrl: NavController, public effectsService: EffectsService) {
+  constructor(public navCtrl: NavController, public effects: EffectsService) {
   }
 
   clearEffects() {
-    this.effectsService.clearEffects();
+    this.effects.clearAll();
     this.content.scrollToTop();
   }
 

@@ -39,7 +39,7 @@ export class SettingsService {
     );
   }
 
-  getLanguagesList() {
+  getAllLanguages() {
     return this.availableLanguages;
   }
 
@@ -52,7 +52,7 @@ export class SettingsService {
     this.storage.set('language', language);
   }
 
-  getSystemsList() {
+  getAllSystems() {
     return this.availableSystems;
   }
 

@@ -10,13 +10,13 @@ export class GlossaryPage {
 
   ruletips: any;
 
-  constructor(public navCtrl: NavController, private ruletipsService: RuletipsService, private alertCtrl: AlertController) {
-    this.ruletips = ruletipsService.getRuletipsList();
+  constructor(public navCtrl: NavController, private ruletipsService: RuletipsService, private alert: AlertController) {
+    this.ruletips = ruletipsService.getAll();
   }
 
   displayRuletip(title: string, text: string) {
 
-    this.alertCtrl.create({
+    this.alert.create({
       title: title,
       message: text,
       cssClass: 'ruletip'

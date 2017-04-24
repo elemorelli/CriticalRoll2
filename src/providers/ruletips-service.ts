@@ -17,24 +17,23 @@ export class RuletipsService {
       this.ruletips[language] = {};
       this.systems.forEach(system => {
         this.ruletips[language][system] = {};
-        this.loadRuletipsFromJson(language, system);
-
+        this.loadFromJson(language, system);
       });
     });
   }
 
-  private loadRuletipsFromJson(language: string, system: string) {
+  private loadFromJson(language: string, system: string) {
     this.http.get('assets/json/' + language + '/' + system + '/ruletips.json')
       .subscribe(data => {
         this.ruletips[language][system] = data.json();
       });
   }
 
-  getRuletip(ruletipTag: string) {
+  get(ruletipTag: string) {
     return this.ruletips[this.settingsService.getLanguage()][this.settingsService.getSystem()][ruletipTag];
   }
 
-  getRuletipsList() {
+  getAll() {
     let ruletips = this.ruletips[this.settingsService.getLanguage()][this.settingsService.getSystem()];
     return Object.keys(ruletips).map(key => ruletips[key]);
   }

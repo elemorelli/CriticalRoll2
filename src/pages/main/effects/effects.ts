@@ -11,7 +11,7 @@ export class Effects {
 
   public effects: any;
 
-  constructor(private effectsService: EffectsService, private ruletipsService: RuletipsService, private alertCtrl: AlertController) {
+  constructor(private effectsService: EffectsService, private ruletips: RuletipsService, private alert: AlertController) {
     this.effects = effectsService.getDrawnEffects();
   }
 
@@ -24,9 +24,9 @@ export class Effects {
 
   displayRuletip(ruletipTag) {
 
-    let ruletip = this.ruletipsService.getRuletip(ruletipTag);
+    let ruletip = this.ruletips.get(ruletipTag);
 
-    this.alertCtrl.create({
+    this.alert.create({
       title: ruletip.title,
       message: ruletip.text,
       cssClass: 'ruletip'
