@@ -1,2 +1,14 @@
 effects {
+  .card-header {
+    padding: 8px;
+    .fab {
+      display: inline-block;
+      margin: 0;
+    }
+    .effect-title {
+      margin-left: 4px;
+      vertical-align: bottom;
+      font-size: 20px;
+    }
+  }
 }
