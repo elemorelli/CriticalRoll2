@@ -27,7 +27,8 @@ export class Effects {
 
     this.alertCtrl.create({
       title: ruletip.title,
-      message: ruletip.text
+      message: ruletip.text,
+      cssClass: 'ruletip'
     }).present();
   }
 }
