@@ -29,8 +29,8 @@ export class RuletipsService {
       });
   }
 
-  get(ruletipTag: string) {
-    return this.ruletips[this.settingsService.getLanguage()][this.settingsService.getSystem()][ruletipTag];
+  get(ruletipTag: string, language: string, system: string) {
+    return this.ruletips[language][system][ruletipTag];
   }
 
   getAll() {

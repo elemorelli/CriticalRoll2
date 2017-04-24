@@ -17,14 +17,14 @@ export class Effects {
 
   ngOnInit() {
     (<any>window).angularComponentRef = {
-      displayRuletip: (value) => this.displayRuletip(value),
+      displayRuletip: (value, language, system) => this.displayRuletip(value, language, system),
       component: this
     };
   }
 
-  displayRuletip(ruletipTag) {
+  displayRuletip(ruletipTag, language, system) {
 
-    let ruletip = this.ruletips.get(ruletipTag);
+    let ruletip = this.ruletips.get(ruletipTag, language, system);
 
     this.alert.create({
       title: ruletip.title,

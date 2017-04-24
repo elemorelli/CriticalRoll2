@@ -13,7 +13,9 @@ export class EffectsService {
   private systems: any = ['pfrpg', 'dnd3', 'dnd5'];
 
   private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
-  private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;)'>$2</a>";
+  private languagePattern = /%LANG%/g;
+  private systemPattern = /%SYS%/g;
+  private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;,&apos;%LANG%&apos;,&apos;%SYS%&apos;)'>$2</a>";
 
   constructor(private http: Http, private settings: SettingsService) {
 
@@ -50,7 +52,10 @@ export class EffectsService {
     let effects = this.effectsData[language][system][type][subtype];
     let effectIndex = Math.floor(Math.random() * effects.length);
     let drawnEffect = effects[effectIndex];
-    let effectText = drawnEffect.text.replace(this.ruletipPattern, this.ruletipHTML);
+    let effectText = drawnEffect.text
+      .replace(this.ruletipPattern, this.ruletipHTML)
+      .replace(this.languagePattern, this.settings.getLanguage())
+      .replace(this.systemPattern, this.settings.getSystem());
     this.drawnEffects.push({
       type: type,
       subtype: subtype,
