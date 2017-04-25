@@ -10,11 +10,9 @@
 <ion-content padding>
   <h3>Glossary</h3>
 
-  <ion-item-group color="light" *ngFor="let section of ruletips">
+  <ion-item-group *ngFor="let section of ruletips">
 
-    <ion-item-divider>
-      {{section.name}}
-    </ion-item-divider>
+    <ion-item-divider color="light">{{section.name}}</ion-item-divider>
 
     <button ion-item
             *ngFor="let ruletip of section.ruletips"

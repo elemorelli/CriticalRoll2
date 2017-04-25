@@ -4,7 +4,8 @@ $font-path: "../assets/fonts";
 $colors: (
   primary: #488aff,
   critical: #32db64,
-  fumble: #f53d3d
+  fumble: #f53d3d,
+  light: #f4f4f4
 );
 
 @import "ionic.theme.default";
