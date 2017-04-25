@@ -30,7 +30,13 @@ export class RuletipsService {
   }
 
   get(ruletipTag: string, language: string, system: string) {
-    return this.ruletips[language][system][ruletipTag];
+    let sections = this.ruletips[language][system];
+    for (let i = 0; i < sections.length; i++) {
+      let foundRuletip = sections[i].ruletips.find(ruletip => {
+        return ruletip.tag == ruletipTag
+      });
+      if (foundRuletip != null) return foundRuletip;
+    }
   }
 
   getAll() {
