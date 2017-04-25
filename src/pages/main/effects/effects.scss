@@ -11,6 +11,14 @@ effects {
       margin-left: 4px;
       vertical-align: bottom;
       font-size: 20px;
+      line-height: 36px;
+      display: inline;
+    }
+  }
+  .card-content {
+    .ruletip {
+      border-bottom: 1px dotted;
+      text-decoration: none;
     }
   }
 }

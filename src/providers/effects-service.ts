@@ -15,7 +15,7 @@ export class EffectsService {
   private ruletipPattern = /%([\w\s-]+)=([\w\sñáéíóú-]+)%/gi;
   private languagePattern = /%LANG%/g;
   private systemPattern = /%SYS%/g;
-  private ruletipHTML = "<a href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;,&apos;%LANG%&apos;,&apos;%SYS%&apos;)'>$2</a>";
+  private ruletipHTML = "<a class=ruletip href='javascript:window.angularComponentRef.displayRuletip(&apos;$1&apos;,&apos;%LANG%&apos;,&apos;%SYS%&apos;)'>$2</a>";
 
   constructor(private http: Http, private settings: SettingsService) {
 

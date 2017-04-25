@@ -4,7 +4,7 @@
       <button ion-fab mini color="{{effect.type}}" [ngClass]="'icon-' + effect.type + '-' + effect.subtype">
         <ion-icon></ion-icon>
       </button>
-      <span class="effect-title">{{effect.title}}</span>
+      <div class="effect-title">{{effect.title}}</div>
     </ion-card-header>
     <ion-card-content [innerHTML]="effect.text | safe"></ion-card-content>
   </ion-card>

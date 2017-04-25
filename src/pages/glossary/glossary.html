@@ -7,11 +7,8 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Glossary</h3>
-
+<ion-content>
   <ion-item-group *ngFor="let section of ruletips">
-
     <ion-item-divider color="light">{{section.name}}</ion-item-divider>
 
     <button ion-item
@@ -20,5 +17,4 @@
       {{ruletip.title}}
     </button>
   </ion-item-group>
-
 </ion-content>
