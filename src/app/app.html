@@ -3,8 +3,8 @@
     <ion-header>
       <ion-toolbar>
         <ion-title>
-          <ion-icon name="logo-angular"></ion-icon>
-          CriticalRoll
+          <ion-icon class="icon-d20s"></ion-icon>
+          <span class="app-title">CriticalRoll</span>
         </ion-title>
       </ion-toolbar>
     </ion-header>
@@ -12,8 +12,8 @@
     <ion-content>
       <ion-list>
         <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-          <ion-icon name="{{p.icon}}"></ion-icon>
-          {{p.title}}
+          <ion-icon class="{{p.icon}}"></ion-icon>
+          <span class="menu-title">{{p.title}}</span>
         </button>
       </ion-list>
     </ion-content>

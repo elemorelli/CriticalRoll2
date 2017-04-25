@@ -18,7 +18,7 @@ export class MyApp {
   nav: Nav;
 
   rootPage = MainPage;
-  pages: Array<{ title: string, component: any }>;
+  pages: Array<{ title: string, component: any, icon: string }>;
 
   constructor(public platform: Platform,
               public menu: MenuController,
@@ -28,11 +28,11 @@ export class MyApp {
     this.initializeApp();
 
     this.pages = [
-      {title: 'Start', component: MainPage},
-      {title: 'Help', component: HelpPage},
-      {title: 'Glossary', component: GlossaryPage},
-      {title: 'Settings', component: SettingsPage},
-      {title: 'License', component: LicensePage}
+      {title: 'Start', component: MainPage, icon: 'icon-d20'},
+      {title: 'Help', component: HelpPage, icon: 'icon-help'},
+      {title: 'Glossary', component: GlossaryPage, icon: 'icon-bookmarks'},
+      {title: 'Settings', component: SettingsPage, icon: 'icon-settings'},
+      {title: 'License', component: LicensePage, icon: 'icon-license'}
     ];
   }
 

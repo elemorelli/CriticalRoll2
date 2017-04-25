@@ -1,7 +1,7 @@
 <ion-list *ngFor="let effect of effects">
   <ion-card [ngClass]="effect.type">
     <ion-card-header>
-      <button ion-fab mini color="{{effect.type}}" [ngClass]="'icon-' + effect.type + effect.subtype">
+      <button ion-fab mini color="{{effect.type}}" [ngClass]="'icon-' + effect.type + '-' + effect.subtype">
         <ion-icon></ion-icon>
       </button>
       <span class="effect-title">{{effect.title}}</span>

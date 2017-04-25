@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'criticalroll-icon';
+  src:  url('../assets/fonts/criticalroll-icon.eot?ge9ngl');
+  src:  url('../assets/fonts/criticalroll-icon.eot?ge9ngl#iefix') format('embedded-opentype'),
+  url('../assets/fonts/criticalroll-icon.ttf?ge9ngl') format('truetype'),
+  url('../assets/fonts/criticalroll-icon.woff?ge9ngl') format('woff'),
+  url('../assets/fonts/criticalroll-icon.svg?ge9ngl#criticalroll-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'criticalroll-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-menu:before {
+  content: "\e800";
+}
+.icon-critical-slashing:before {
+  content: "\e801";
+}
+.icon-critical-piercing:before {
+  content: "\e802";
+}
+.icon-critical-bludgeoning:before {
+  content: "\e803";
+}
+.icon-critical-magical:before {
+  content: "\e804";
+}
+.icon-fumble-melee:before {
+  content: "\e805";
+}
+.icon-fumble-ranged:before {
+  content: "\e806";
+}
+.icon-fumble-natural:before {
+  content: "\e807";
+}
+.icon-fumble-magical:before {
+  content: "\e808";
+}
+.icon-d20:before {
+  content: "\e809";
+}
+.icon-d20s:before {
+  content: "\e810";
+}
+.icon-help:before {
+  content: "\e811";
+}
+.icon-license:before {
+  content: "\e812";
+}
+.icon-trash:before {
+  content: "\e813";
+}
+.icon-settings:before {
+  content: "\e814";
+}
+.icon-bookmarks:before {
+  content: "\e815";
+}
+.icon-share:before {
+  content: "\e816";
+}
