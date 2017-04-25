@@ -16,7 +16,6 @@ import {SettingsService} from "../providers/settings-service";
 export class MyApp {
   @ViewChild(Nav)
   nav: Nav;
-
   rootPage = MainPage;
   pages: Array<{ title: string, component: any, icon: string }>;
 
@@ -28,7 +27,6 @@ export class MyApp {
     this.initializeApp();
 
     this.pages = [
-      {title: 'Start', component: MainPage, icon: 'icon-d20'},
       {title: 'Help', component: HelpPage, icon: 'icon-help'},
       {title: 'Glossary', component: GlossaryPage, icon: 'icon-bookmarks'},
       {title: 'Settings', component: SettingsPage, icon: 'icon-settings'},
@@ -41,6 +39,11 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+  }
+
+  openRootPage() {
+    this.menu.close();
+    this.nav.setRoot(this.rootPage);
   }
 
   openPage(page) {

@@ -5,11 +5,20 @@
   .alert-message {
     max-height: none;
     color: #000;
+    line-height: 1.4;
+    ul {
+      margin-top: 0;
+      li {
+        padding-top: 5px;
+      }
+    }
   }
 }
 
-.toolbar-title {
+.menu-title {
+  cursor: pointer;
   .icon {
     font-size: xx-large;
   }
 }
+
