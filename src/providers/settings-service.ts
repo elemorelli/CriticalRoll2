@@ -25,14 +25,14 @@ export class SettingsService {
           if (language != null) {
             this.currentLanguage = language;
           } else {
-            this.setLanguage(this.availableLanguages[0]);
+            this.setLanguage(this.availableLanguages[0].tag);
           }
         });
         this.storage.get('system').then((system) => {
           if (system != null) {
             this.currentSystem = system;
           } else {
-            this.setSystem(this.availableSystems[0]);
+            this.setSystem(this.availableSystems[0].tag);
           }
         })
       }
