@@ -3,10 +3,12 @@
     max-width: 80%;
   }
   .alert-message {
+    text-align: left;
     max-height: none;
     color: #000;
     line-height: 1.4;
     ul {
+      padding-left: 20px;
       margin-top: 0;
       li {
         padding-top: 5px;
@@ -15,10 +17,18 @@
   }
 }
 
-.menu-title {
+.header {
+  .toolbar {
+    button {
+      color: #000000;
+    }
+  }
+}
+
+.menu-title.title {
   cursor: pointer;
+  padding: 0;
   .icon {
     font-size: 2em;
   }
 }
-

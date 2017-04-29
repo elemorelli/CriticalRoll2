@@ -27,10 +27,10 @@ export class MyApp {
     this.initializeApp();
 
     this.pages = [
-      {title: 'Help', component: HelpPage, icon: 'icon-help'},
-      {title: 'Glossary', component: GlossaryPage, icon: 'icon-bookmarks'},
-      {title: 'Settings', component: SettingsPage, icon: 'icon-settings'},
-      {title: 'License', component: LicensePage, icon: 'icon-license'}
+      {title: 'Help', component: HelpPage, icon: 'app-icon-help'},
+      {title: 'Glossary', component: GlossaryPage, icon: 'app-icon-glossary'},
+      {title: 'Settings', component: SettingsPage, icon: 'app-icon-settings'},
+      {title: 'License', component: LicensePage, icon: 'app-icon-license'}
     ];
   }
 
@@ -48,6 +48,6 @@ export class MyApp {
 
   openPage(page) {
     this.menu.close();
-    this.nav.setRoot(page.component);
+    this.nav.push(page.component);
   }
 }

@@ -1,14 +1,15 @@
 @font-face {
   font-family: 'criticalroll-icon';
-  src:  url('../assets/fonts/criticalroll-icon.eot?ge9ngl');
-  src:  url('../assets/fonts/criticalroll-icon.eot?ge9ngl#iefix') format('embedded-opentype'),
-  url('../assets/fonts/criticalroll-icon.ttf?ge9ngl') format('truetype'),
-  url('../assets/fonts/criticalroll-icon.woff?ge9ngl') format('woff'),
-  url('../assets/fonts/criticalroll-icon.svg?ge9ngl#criticalroll-icon') format('svg');
+  src: url('../assets/../assets/fonts/criticalroll-icon.eot?77vwxq');
+  src: url('../assets/fonts/criticalroll-icon.eot?77vwxq#iefix') format('embedded-opentype'),
+  url('../assets/fonts/criticalroll-icon.ttf?77vwxq') format('truetype'),
+  url('../assets/fonts/criticalroll-icon.woff?77vwxq') format('woff'),
+  url('../assets/fonts/criticalroll-icon.svg?77vwxq#criticalroll-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-"], [class*=" icon-"] {
+
+[class^="app-icon-"], [class*=" app-icon-"] {
   font-family: 'criticalroll-icon' !important;
   speak: none;
   font-style: normal;
@@ -19,54 +20,67 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-menu:before {
-  content: "\e800";
-}
-.icon-critical-slashing:before {
+
+.app-icon-critical-slashing:before {
   content: "\e801";
 }
-.icon-critical-piercing:before {
+
+.app-icon-critical-piercing:before {
   content: "\e802";
 }
-.icon-critical-bludgeoning:before {
+
+.app-icon-critical-bludgeoning:before {
   content: "\e803";
 }
-.icon-critical-magical:before {
+
+.app-icon-critical-magical:before {
   content: "\e804";
 }
-.icon-fumble-melee:before {
+
+.app-icon-fumble-melee:before {
   content: "\e805";
 }
-.icon-fumble-ranged:before {
+
+.app-icon-fumble-ranged:before {
   content: "\e806";
 }
-.icon-fumble-natural:before {
+
+.app-icon-fumble-natural:before {
   content: "\e807";
 }
-.icon-fumble-magical:before {
+
+.app-icon-fumble-magical:before {
   content: "\e808";
 }
-.icon-d20:before {
+
+.app-icon-d20:before {
   content: "\e809";
 }
-.icon-d20s:before {
+
+.app-icon-d20s:before {
   content: "\e810";
 }
-.icon-help:before {
+
+.app-icon-help:before {
   content: "\e811";
 }
-.icon-license:before {
+
+.app-icon-license:before {
   content: "\e812";
 }
-.icon-trash:before {
+
+.app-icon-trash:before {
   content: "\e813";
 }
-.icon-settings:before {
+
+.app-icon-settings:before {
   content: "\e814";
 }
-.icon-bookmarks:before {
+
+.app-icon-glossary:before {
   content: "\e815";
 }
-.icon-share:before {
+
+.app-icon-share:before {
   content: "\e816";
 }
